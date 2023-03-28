@@ -27,6 +27,12 @@ gem "stimulus-rails"
 # Build JSON APIs with ease [https://github.com/rails/jbuilder]
 gem "jbuilder"
 
+gem "slim-rails"
+
+gem "haml"
+
+gem "haml-rails"
+
 # Use Redis adapter to run Action Cable in production
 # gem "redis", "~> 4.0"
 
@@ -41,6 +47,16 @@ gem "tzinfo-data", platforms: %i[ mingw mswin x64_mingw jruby ]
 
 # Reduces boot times through caching; required in config/boot.rb
 gem "bootsnap", require: false
+
+gem 'jquery-ui-rails'
+gem 'jquery-rails'
+gem 'rails-asset-jqueryui'
+gem "sass-rails", "~> 5.0"
+gem "bootstrap-sass", "3.3.7"
+gem "font-awesome-sass"
+gem "font-awesome-rails"
+gem "kaminari"
+gem "will_paginate"
 
 # Use Sass to process CSS
 # gem "sassc-rails"
@@ -69,4 +85,10 @@ group :test do
   gem "capybara"
   gem "selenium-webdriver"
   gem "webdrivers"
+  # Call 'byebug' anywhere in the code to stop execution and get a debugger console
+  gem "byebug", platform: :mri
+
+  # Лучше отображает ошибки
+  gem "better_errors"
+  gem "binding_of_caller"
 end
