@@ -1,14 +1,1331 @@
-Started GET "/" for 127.0.0.1 at 2023-02-28 01:55:00 +0300
-Processing by Rails::WelcomeController#index as HTML
-  Rendering /usr/share/rvm/gems/ruby-3.0.0/gems/railties-7.0.4.2/lib/rails/templates/rails/welcome/index.html.erb
-  Rendered /usr/share/rvm/gems/ruby-3.0.0/gems/railties-7.0.4.2/lib/rails/templates/rails/welcome/index.html.erb (Duration: 1.1ms | Allocations: 831)
-Completed 200 OK in 12ms (Views: 4.0ms | ActiveRecord: 0.0ms | Allocations: 7215)
+Started GET "/" for 127.0.0.1 at 2023-03-28 00:39:30 +0300
+Processing by MainController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/index.html.slim within layouts/application
+  Rendered main/index.html.slim within layouts/application (Duration: 10.4ms | Allocations: 17086)
+  Rendered layout layouts/application.html.erb (Duration: 111.5ms | Allocations: 437852)
+Completed 500 Internal Server Error in 121ms (ActiveRecord: 0.0ms | Allocations: 444483)
 
 
-Started GET "/" for 127.0.0.1 at 2023-03-01 00:00:39 +0300
-Processing by Rails::WelcomeController#index as HTML
-  Rendering /usr/share/rvm/gems/ruby-3.0.0/gems/railties-7.0.4.2/lib/rails/templates/rails/welcome/index.html.erb
-  Rendered /usr/share/rvm/gems/ruby-3.0.0/gems/railties-7.0.4.2/lib/rails/templates/rails/welcome/index.html.erb (Duration: 2.4ms | Allocations: 726)
-Completed 200 OK in 13ms (Views: 5.7ms | ActiveRecord: 0.0ms | Allocations: 5950)
+  
+ActionView::Template::Error (couldn't find file 'font-awesome' with type 'text/css'
+Checked in these paths: 
+  /home/oleg/rubymine/RailsProject/app/assets/config
+  /home/oleg/rubymine/RailsProject/app/assets/images
+  /home/oleg/rubymine/RailsProject/app/assets/javascripts
+  /home/oleg/rubymine/RailsProject/app/assets/stylesheets
+  /home/oleg/rubymine/RailsProject/.bundle/ruby/3.0.0/gems/rails-asset-jqueryui-0.0.3/vendor/assets/images
+  /home/oleg/rubymine/RailsProject/.bundle/ruby/3.0.0/gems/rails-asset-jqueryui-0.0.3/vendor/assets/javascripts
+  /home/oleg/rubymine/RailsProject/.bundle/ruby/3.0.0/gems/rails-asset-jqueryui-0.0.3/vendor/assets/stylesheets
+  /home/oleg/rubymine/RailsProject/.bundle/ruby/3.0.0/gems/jquery-ui-rails-6.0.1/app/assets/images
+  /home/oleg/rubymine/RailsProject/.bundle/ruby/3.0.0/gems/jquery-ui-rails-6.0.1/app/assets/javascripts
+  /home/oleg/rubymine/RailsProject/.bundle/ruby/3.0.0/gems/jquery-ui-rails-6.0.1/app/assets/stylesheets
+  /home/oleg/rubymine/RailsProject/.bundle/ruby/3.0.0/gems/stimulus-rails-1.2.1/app/assets/javascripts
+  /home/oleg/rubymine/RailsProject/.bundle/ruby/3.0.0/gems/turbo-rails-1.4.0/app/assets/javascripts
+  /home/oleg/rubymine/RailsProject/.bundle/ruby/3.0.0/gems/importmap-rails-1.1.5/app/assets/javascripts
+  /home/oleg/rubymine/RailsProject/.bundle/ruby/3.0.0/gems/actiontext-7.0.4.3/app/assets/javascripts
+  /home/oleg/rubymine/RailsProject/.bundle/ruby/3.0.0/gems/actiontext-7.0.4.3/app/assets/stylesheets
+  /home/oleg/rubymine/RailsProject/.bundle/ruby/3.0.0/gems/actioncable-7.0.4.3/app/assets/javascripts
+  /home/oleg/rubymine/RailsProject/.bundle/ruby/3.0.0/gems/activestorage-7.0.4.3/app/assets/javascripts
+  /home/oleg/rubymine/RailsProject/.bundle/ruby/3.0.0/gems/actionview-7.0.4.3/lib/assets/compiled
+  /home/oleg/rubymine/RailsProject/app/javascript
+  /home/oleg/rubymine/RailsProject/vendor/javascript
+  /home/oleg/rubymine/RailsProject/.bundle/ruby/3.0.0/gems/bootstrap-sass-3.3.7/assets/stylesheets
+  /home/oleg/rubymine/RailsProject/.bundle/ruby/3.0.0/gems/bootstrap-sass-3.3.7/assets/javascripts
+  /home/oleg/rubymine/RailsProject/.bundle/ruby/3.0.0/gems/bootstrap-sass-3.3.7/assets/fonts
+  /home/oleg/rubymine/RailsProject/.bundle/ruby/3.0.0/gems/bootstrap-sass-3.3.7/assets/images):
+     6:     <%= csrf_meta_tags %>
+     7:     <%= csp_meta_tag %>
+     8: 
+     9:     <%= stylesheet_link_tag "application", "data-turbo-track": "reload" %>
+    10:   </head>
+    11: 
+    12:   <body>
+  
+app/assets/stylesheets/application.css:15
+app/views/layouts/application.html.erb:9
+Started GET "/" for 127.0.0.1 at 2023-03-28 00:41:13 +0300
+Processing by MainController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/index.html.slim within layouts/application
+  Rendered main/index.html.slim within layouts/application (Duration: 12.5ms | Allocations: 17084)
+  Rendered layout layouts/application.html.erb (Duration: 237.7ms | Allocations: 437859)
+Completed 500 Internal Server Error in 247ms (ActiveRecord: 0.0ms | Allocations: 444489)
 
 
+  
+ActionView::Template::Error (couldn't find file 'font-awesome' with type 'text/css'
+Checked in these paths: 
+  /home/oleg/rubymine/RailsProject/app/assets/config
+  /home/oleg/rubymine/RailsProject/app/assets/images
+  /home/oleg/rubymine/RailsProject/app/assets/javascripts
+  /home/oleg/rubymine/RailsProject/app/assets/stylesheets
+  /home/oleg/rubymine/RailsProject/vendor/bundle/ruby/3.0.0/gems/rails-asset-jqueryui-0.0.3/vendor/assets/images
+  /home/oleg/rubymine/RailsProject/vendor/bundle/ruby/3.0.0/gems/rails-asset-jqueryui-0.0.3/vendor/assets/javascripts
+  /home/oleg/rubymine/RailsProject/vendor/bundle/ruby/3.0.0/gems/rails-asset-jqueryui-0.0.3/vendor/assets/stylesheets
+  /home/oleg/rubymine/RailsProject/vendor/bundle/ruby/3.0.0/gems/jquery-ui-rails-6.0.1/app/assets/images
+  /home/oleg/rubymine/RailsProject/vendor/bundle/ruby/3.0.0/gems/jquery-ui-rails-6.0.1/app/assets/javascripts
+  /home/oleg/rubymine/RailsProject/vendor/bundle/ruby/3.0.0/gems/jquery-ui-rails-6.0.1/app/assets/stylesheets
+  /home/oleg/rubymine/RailsProject/vendor/bundle/ruby/3.0.0/gems/stimulus-rails-1.2.1/app/assets/javascripts
+  /home/oleg/rubymine/RailsProject/vendor/bundle/ruby/3.0.0/gems/turbo-rails-1.4.0/app/assets/javascripts
+  /home/oleg/rubymine/RailsProject/vendor/bundle/ruby/3.0.0/gems/importmap-rails-1.1.5/app/assets/javascripts
+  /home/oleg/rubymine/RailsProject/vendor/bundle/ruby/3.0.0/gems/actiontext-7.0.4.3/app/assets/javascripts
+  /home/oleg/rubymine/RailsProject/vendor/bundle/ruby/3.0.0/gems/actiontext-7.0.4.3/app/assets/stylesheets
+  /home/oleg/rubymine/RailsProject/vendor/bundle/ruby/3.0.0/gems/actioncable-7.0.4.3/app/assets/javascripts
+  /home/oleg/rubymine/RailsProject/vendor/bundle/ruby/3.0.0/gems/activestorage-7.0.4.3/app/assets/javascripts
+  /home/oleg/rubymine/RailsProject/vendor/bundle/ruby/3.0.0/gems/actionview-7.0.4.3/lib/assets/compiled
+  /home/oleg/rubymine/RailsProject/app/javascript
+  /home/oleg/rubymine/RailsProject/vendor/javascript
+  /home/oleg/rubymine/RailsProject/vendor/bundle/ruby/3.0.0/gems/bootstrap-sass-3.3.7/assets/stylesheets
+  /home/oleg/rubymine/RailsProject/vendor/bundle/ruby/3.0.0/gems/bootstrap-sass-3.3.7/assets/javascripts
+  /home/oleg/rubymine/RailsProject/vendor/bundle/ruby/3.0.0/gems/bootstrap-sass-3.3.7/assets/fonts
+  /home/oleg/rubymine/RailsProject/vendor/bundle/ruby/3.0.0/gems/bootstrap-sass-3.3.7/assets/images):
+     6:     <%= csrf_meta_tags %>
+     7:     <%= csp_meta_tag %>
+     8: 
+     9:     <%= stylesheet_link_tag "application", "data-turbo-track": "reload" %>
+    10:   </head>
+    11: 
+    12:   <body>
+  
+app/assets/stylesheets/application.css:15
+app/views/layouts/application.html.erb:9
+Started GET "/" for 127.0.0.1 at 2023-03-28 01:15:25 +0300
+Processing by MainController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/index.html.slim within layouts/application
+  Rendered main/index.html.slim within layouts/application (Duration: 9.3ms | Allocations: 17086)
+  Rendered layout layouts/application.html.erb (Duration: 130.5ms | Allocations: 443633)
+Completed 500 Internal Server Error in 138ms (ActiveRecord: 0.0ms | Allocations: 450264)
+
+
+  
+ActionView::Template::Error (Invalid CSS after "*": expected selector, was "= require_self"):
+     6:     <%= csrf_meta_tags %>
+     7:     <%= csp_meta_tag %>
+     8: 
+     9:     <%= stylesheet_link_tag "application", "data-turbo-track": "reload" %>
+    10:   </head>
+    11: 
+    12:   <body>
+  
+app/assets/stylesheets/application.sass:2
+app/views/layouts/application.html.erb:9
+Started GET "/" for 127.0.0.1 at 2023-03-28 01:16:18 +0300
+Processing by MainController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/index.html.slim within layouts/application
+  Rendered main/index.html.slim within layouts/application (Duration: 14.4ms | Allocations: 16893)
+  Rendered layout layouts/application.html.erb (Duration: 284.2ms | Allocations: 439670)
+Completed 500 Internal Server Error in 294ms (ActiveRecord: 0.0ms | Allocations: 445142)
+
+
+  
+ActionView::Template::Error (Invalid CSS after "": expected expression (e.g. 1px, bold), was "font-awesome"):
+     6:     <%= csrf_meta_tags %>
+     7:     <%= csp_meta_tag %>
+     8: 
+     9:     <%= stylesheet_link_tag "application", "data-turbo-track": "reload" %>
+    10:   </head>
+    11: 
+    12:   <body>
+  
+app/assets/stylesheets/application.sass:3
+app/views/layouts/application.html.erb:9
+Started GET "/" for 127.0.0.1 at 2023-03-28 01:25:05 +0300
+Processing by MainController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/index.html.slim within layouts/application
+  Rendered main/index.html.slim within layouts/application (Duration: 11.2ms | Allocations: 16893)
+  Rendered layout layouts/application.html.erb (Duration: 274.9ms | Allocations: 443585)
+Completed 500 Internal Server Error in 282ms (ActiveRecord: 0.0ms | Allocations: 449168)
+
+
+  
+ActionView::Template::Error (Invalid CSS after "*": expected selector, was "= require_self"):
+     6:     <%= csrf_meta_tags %>
+     7:     <%= csp_meta_tag %>
+     8: 
+     9:     <%= stylesheet_link_tag "application", "data-turbo-track": "reload" %>
+    10:   </head>
+    11: 
+    12:   <body>
+  
+app/assets/stylesheets/application.sass:2
+app/views/layouts/application.html.erb:9
+Started GET "/" for 127.0.0.1 at 2023-03-28 01:27:02 +0300
+Processing by MainController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/index.html.slim within layouts/application
+  Rendered main/index.html.slim within layouts/application (Duration: 8.1ms | Allocations: 16893)
+  Rendered layout layouts/application.html.erb (Duration: 269.3ms | Allocations: 442766)
+Completed 500 Internal Server Error in 276ms (ActiveRecord: 0.0ms | Allocations: 448349)
+
+
+  
+ActionView::Template::Error (Invalid CSS after "*": expected selector, was "= require_self"):
+     6:     <%= csrf_meta_tags %>
+     7:     <%= csp_meta_tag %>
+     8: 
+     9:     <%= stylesheet_link_tag "application", "data-turbo-track": "reload" %>
+    10:   </head>
+    11: 
+    12:   <body>
+  
+app/assets/stylesheets/application.sass:1
+app/views/layouts/application.html.erb:9
+Started GET "/" for 127.0.0.1 at 2023-03-28 01:32:31 +0300
+Processing by MainController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/index.html.slim within layouts/application
+  Rendered main/index.html.slim within layouts/application (Duration: 12.6ms | Allocations: 16893)
+  Rendered layout layouts/application.html.erb (Duration: 267.9ms | Allocations: 439943)
+Completed 500 Internal Server Error in 275ms (ActiveRecord: 0.0ms | Allocations: 445459)
+
+
+  
+ActionView::Template::Error (couldn't find file 'flash' with type 'text/css'
+Checked in these paths: 
+  /home/oleg/rubymine/RailsProject/app/assets/config
+  /home/oleg/rubymine/RailsProject/app/assets/images
+  /home/oleg/rubymine/RailsProject/app/assets/javascripts
+  /home/oleg/rubymine/RailsProject/app/assets/stylesheets
+  /usr/share/rvm/gems/ruby-3.0.0/gems/font-awesome-rails-4.7.0.8/app/assets/fonts
+  /usr/share/rvm/gems/ruby-3.0.0/gems/font-awesome-rails-4.7.0.8/app/assets/stylesheets
+  /usr/share/rvm/gems/ruby-3.0.0/gems/rails-asset-jqueryui-0.0.3/vendor/assets/images
+  /usr/share/rvm/gems/ruby-3.0.0/gems/rails-asset-jqueryui-0.0.3/vendor/assets/javascripts
+  /usr/share/rvm/gems/ruby-3.0.0/gems/rails-asset-jqueryui-0.0.3/vendor/assets/stylesheets
+  /usr/share/rvm/gems/ruby-3.0.0/gems/jquery-ui-rails-6.0.1/app/assets/images
+  /usr/share/rvm/gems/ruby-3.0.0/gems/jquery-ui-rails-6.0.1/app/assets/javascripts
+  /usr/share/rvm/gems/ruby-3.0.0/gems/jquery-ui-rails-6.0.1/app/assets/stylesheets
+  /usr/share/rvm/gems/ruby-3.0.0/gems/stimulus-rails-1.2.1/app/assets/javascripts
+  /usr/share/rvm/gems/ruby-3.0.0/gems/turbo-rails-1.4.0/app/assets/javascripts
+  /usr/share/rvm/gems/ruby-3.0.0/gems/importmap-rails-1.1.5/app/assets/javascripts
+  /usr/share/rvm/gems/ruby-3.0.0/gems/actiontext-7.0.4.3/app/assets/javascripts
+  /usr/share/rvm/gems/ruby-3.0.0/gems/actiontext-7.0.4.3/app/assets/stylesheets
+  /usr/share/rvm/gems/ruby-3.0.0/gems/actioncable-7.0.4.3/app/assets/javascripts
+  /usr/share/rvm/gems/ruby-3.0.0/gems/activestorage-7.0.4.3/app/assets/javascripts
+  /usr/share/rvm/gems/ruby-3.0.0/gems/actionview-7.0.4.3/lib/assets/compiled
+  /home/oleg/rubymine/RailsProject/app/javascript
+  /home/oleg/rubymine/RailsProject/vendor/javascript
+  /usr/share/rvm/gems/ruby-3.0.0/gems/bootstrap-sass-3.3.7/assets/stylesheets
+  /usr/share/rvm/gems/ruby-3.0.0/gems/bootstrap-sass-3.3.7/assets/javascripts
+  /usr/share/rvm/gems/ruby-3.0.0/gems/bootstrap-sass-3.3.7/assets/fonts
+  /usr/share/rvm/gems/ruby-3.0.0/gems/bootstrap-sass-3.3.7/assets/images
+  /usr/share/rvm/gems/ruby-3.0.0/gems/font-awesome-sass-6.3.0/assets/stylesheets
+  /usr/share/rvm/gems/ruby-3.0.0/gems/font-awesome-sass-6.3.0/assets/fonts):
+     6:     <%= csrf_meta_tags %>
+     7:     <%= csp_meta_tag %>
+     8: 
+     9:     <%= stylesheet_link_tag "application", "data-turbo-track": "reload" %>
+    10:   </head>
+    11: 
+    12:   <body>
+  
+app/assets/stylesheets/application.css:4
+app/views/layouts/application.html.erb:9
+Started GET "/" for 127.0.0.1 at 2023-03-28 01:32:50 +0300
+Processing by MainController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/index.html.slim within layouts/application
+  Rendered main/index.html.slim within layouts/application (Duration: 10.3ms | Allocations: 16893)
+  Rendered layout layouts/application.html.erb (Duration: 594.2ms | Allocations: 555167)
+Completed 500 Internal Server Error in 602ms (ActiveRecord: 0.0ms | Allocations: 560683)
+
+
+  
+ActionView::Template::Error (couldn't find file 'jquery' with type 'application/javascript'
+Checked in these paths: 
+  /home/oleg/rubymine/RailsProject/app/assets/config
+  /home/oleg/rubymine/RailsProject/app/assets/images
+  /home/oleg/rubymine/RailsProject/app/assets/javascripts
+  /home/oleg/rubymine/RailsProject/app/assets/stylesheets
+  /usr/share/rvm/gems/ruby-3.0.0/gems/font-awesome-rails-4.7.0.8/app/assets/fonts
+  /usr/share/rvm/gems/ruby-3.0.0/gems/font-awesome-rails-4.7.0.8/app/assets/stylesheets
+  /usr/share/rvm/gems/ruby-3.0.0/gems/rails-asset-jqueryui-0.0.3/vendor/assets/images
+  /usr/share/rvm/gems/ruby-3.0.0/gems/rails-asset-jqueryui-0.0.3/vendor/assets/javascripts
+  /usr/share/rvm/gems/ruby-3.0.0/gems/rails-asset-jqueryui-0.0.3/vendor/assets/stylesheets
+  /usr/share/rvm/gems/ruby-3.0.0/gems/jquery-ui-rails-6.0.1/app/assets/images
+  /usr/share/rvm/gems/ruby-3.0.0/gems/jquery-ui-rails-6.0.1/app/assets/javascripts
+  /usr/share/rvm/gems/ruby-3.0.0/gems/jquery-ui-rails-6.0.1/app/assets/stylesheets
+  /usr/share/rvm/gems/ruby-3.0.0/gems/stimulus-rails-1.2.1/app/assets/javascripts
+  /usr/share/rvm/gems/ruby-3.0.0/gems/turbo-rails-1.4.0/app/assets/javascripts
+  /usr/share/rvm/gems/ruby-3.0.0/gems/importmap-rails-1.1.5/app/assets/javascripts
+  /usr/share/rvm/gems/ruby-3.0.0/gems/actiontext-7.0.4.3/app/assets/javascripts
+  /usr/share/rvm/gems/ruby-3.0.0/gems/actiontext-7.0.4.3/app/assets/stylesheets
+  /usr/share/rvm/gems/ruby-3.0.0/gems/actioncable-7.0.4.3/app/assets/javascripts
+  /usr/share/rvm/gems/ruby-3.0.0/gems/activestorage-7.0.4.3/app/assets/javascripts
+  /usr/share/rvm/gems/ruby-3.0.0/gems/actionview-7.0.4.3/lib/assets/compiled
+  /home/oleg/rubymine/RailsProject/app/javascript
+  /home/oleg/rubymine/RailsProject/vendor/javascript
+  /usr/share/rvm/gems/ruby-3.0.0/gems/bootstrap-sass-3.3.7/assets/stylesheets
+  /usr/share/rvm/gems/ruby-3.0.0/gems/bootstrap-sass-3.3.7/assets/javascripts
+  /usr/share/rvm/gems/ruby-3.0.0/gems/bootstrap-sass-3.3.7/assets/fonts
+  /usr/share/rvm/gems/ruby-3.0.0/gems/bootstrap-sass-3.3.7/assets/images
+  /usr/share/rvm/gems/ruby-3.0.0/gems/font-awesome-sass-6.3.0/assets/stylesheets
+  /usr/share/rvm/gems/ruby-3.0.0/gems/font-awesome-sass-6.3.0/assets/fonts):
+     6:     <%= csrf_meta_tags %>
+     7:     <%= csp_meta_tag %>
+     8: 
+     9:     <%= stylesheet_link_tag "application", "data-turbo-track": "reload" %>
+    10:   </head>
+    11: 
+    12:   <body>
+  
+app/assets/javascripts/application.js:2
+app/views/layouts/application.html.erb:9
+Started GET "/" for 127.0.0.1 at 2023-03-28 01:32:54 +0300
+Processing by MainController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/index.html.slim within layouts/application
+  Rendered main/index.html.slim within layouts/application (Duration: 0.2ms | Allocations: 122)
+  Rendered layout layouts/application.html.erb (Duration: 20.9ms | Allocations: 38157)
+Completed 500 Internal Server Error in 22ms (ActiveRecord: 0.0ms | Allocations: 38444)
+
+
+  
+ActionView::Template::Error (couldn't find file 'jquery' with type 'application/javascript'
+Checked in these paths: 
+  /home/oleg/rubymine/RailsProject/app/assets/config
+  /home/oleg/rubymine/RailsProject/app/assets/images
+  /home/oleg/rubymine/RailsProject/app/assets/javascripts
+  /home/oleg/rubymine/RailsProject/app/assets/stylesheets
+  /usr/share/rvm/gems/ruby-3.0.0/gems/font-awesome-rails-4.7.0.8/app/assets/fonts
+  /usr/share/rvm/gems/ruby-3.0.0/gems/font-awesome-rails-4.7.0.8/app/assets/stylesheets
+  /usr/share/rvm/gems/ruby-3.0.0/gems/rails-asset-jqueryui-0.0.3/vendor/assets/images
+  /usr/share/rvm/gems/ruby-3.0.0/gems/rails-asset-jqueryui-0.0.3/vendor/assets/javascripts
+  /usr/share/rvm/gems/ruby-3.0.0/gems/rails-asset-jqueryui-0.0.3/vendor/assets/stylesheets
+  /usr/share/rvm/gems/ruby-3.0.0/gems/jquery-ui-rails-6.0.1/app/assets/images
+  /usr/share/rvm/gems/ruby-3.0.0/gems/jquery-ui-rails-6.0.1/app/assets/javascripts
+  /usr/share/rvm/gems/ruby-3.0.0/gems/jquery-ui-rails-6.0.1/app/assets/stylesheets
+  /usr/share/rvm/gems/ruby-3.0.0/gems/stimulus-rails-1.2.1/app/assets/javascripts
+  /usr/share/rvm/gems/ruby-3.0.0/gems/turbo-rails-1.4.0/app/assets/javascripts
+  /usr/share/rvm/gems/ruby-3.0.0/gems/importmap-rails-1.1.5/app/assets/javascripts
+  /usr/share/rvm/gems/ruby-3.0.0/gems/actiontext-7.0.4.3/app/assets/javascripts
+  /usr/share/rvm/gems/ruby-3.0.0/gems/actiontext-7.0.4.3/app/assets/stylesheets
+  /usr/share/rvm/gems/ruby-3.0.0/gems/actioncable-7.0.4.3/app/assets/javascripts
+  /usr/share/rvm/gems/ruby-3.0.0/gems/activestorage-7.0.4.3/app/assets/javascripts
+  /usr/share/rvm/gems/ruby-3.0.0/gems/actionview-7.0.4.3/lib/assets/compiled
+  /home/oleg/rubymine/RailsProject/app/javascript
+  /home/oleg/rubymine/RailsProject/vendor/javascript
+  /usr/share/rvm/gems/ruby-3.0.0/gems/bootstrap-sass-3.3.7/assets/stylesheets
+  /usr/share/rvm/gems/ruby-3.0.0/gems/bootstrap-sass-3.3.7/assets/javascripts
+  /usr/share/rvm/gems/ruby-3.0.0/gems/bootstrap-sass-3.3.7/assets/fonts
+  /usr/share/rvm/gems/ruby-3.0.0/gems/bootstrap-sass-3.3.7/assets/images
+  /usr/share/rvm/gems/ruby-3.0.0/gems/font-awesome-sass-6.3.0/assets/stylesheets
+  /usr/share/rvm/gems/ruby-3.0.0/gems/font-awesome-sass-6.3.0/assets/fonts):
+     6:     <%= csrf_meta_tags %>
+     7:     <%= csp_meta_tag %>
+     8: 
+     9:     <%= stylesheet_link_tag "application", "data-turbo-track": "reload" %>
+    10:   </head>
+    11: 
+    12:   <body>
+  
+app/assets/javascripts/application.js:2
+app/views/layouts/application.html.erb:9
+Started GET "/" for 127.0.0.1 at 2023-03-28 01:34:10 +0300
+Processing by MainController#index as HTML
+  Rendering layout layouts/application.html.haml
+  Rendering main/index.html.slim within layouts/application
+  Rendered main/index.html.slim within layouts/application (Duration: 17.1ms | Allocations: 16893)
+  Rendered layout layouts/application.html.haml (Duration: 517.9ms | Allocations: 482477)
+Completed 500 Internal Server Error in 528ms (ActiveRecord: 0.0ms | Allocations: 487947)
+
+
+  
+ActionView::Template::Error (couldn't find file 'jquery' with type 'application/javascript'
+Checked in these paths: 
+  /home/oleg/rubymine/RailsProject/app/assets/config
+  /home/oleg/rubymine/RailsProject/app/assets/images
+  /home/oleg/rubymine/RailsProject/app/assets/javascripts
+  /home/oleg/rubymine/RailsProject/app/assets/stylesheets
+  /usr/share/rvm/gems/ruby-3.0.0/gems/font-awesome-rails-4.7.0.8/app/assets/fonts
+  /usr/share/rvm/gems/ruby-3.0.0/gems/font-awesome-rails-4.7.0.8/app/assets/stylesheets
+  /usr/share/rvm/gems/ruby-3.0.0/gems/rails-asset-jqueryui-0.0.3/vendor/assets/images
+  /usr/share/rvm/gems/ruby-3.0.0/gems/rails-asset-jqueryui-0.0.3/vendor/assets/javascripts
+  /usr/share/rvm/gems/ruby-3.0.0/gems/rails-asset-jqueryui-0.0.3/vendor/assets/stylesheets
+  /usr/share/rvm/gems/ruby-3.0.0/gems/jquery-ui-rails-6.0.1/app/assets/images
+  /usr/share/rvm/gems/ruby-3.0.0/gems/jquery-ui-rails-6.0.1/app/assets/javascripts
+  /usr/share/rvm/gems/ruby-3.0.0/gems/jquery-ui-rails-6.0.1/app/assets/stylesheets
+  /usr/share/rvm/gems/ruby-3.0.0/gems/stimulus-rails-1.2.1/app/assets/javascripts
+  /usr/share/rvm/gems/ruby-3.0.0/gems/turbo-rails-1.4.0/app/assets/javascripts
+  /usr/share/rvm/gems/ruby-3.0.0/gems/importmap-rails-1.1.5/app/assets/javascripts
+  /usr/share/rvm/gems/ruby-3.0.0/gems/actiontext-7.0.4.3/app/assets/javascripts
+  /usr/share/rvm/gems/ruby-3.0.0/gems/actiontext-7.0.4.3/app/assets/stylesheets
+  /usr/share/rvm/gems/ruby-3.0.0/gems/actioncable-7.0.4.3/app/assets/javascripts
+  /usr/share/rvm/gems/ruby-3.0.0/gems/activestorage-7.0.4.3/app/assets/javascripts
+  /usr/share/rvm/gems/ruby-3.0.0/gems/actionview-7.0.4.3/lib/assets/compiled
+  /home/oleg/rubymine/RailsProject/app/javascript
+  /home/oleg/rubymine/RailsProject/vendor/javascript
+  /usr/share/rvm/gems/ruby-3.0.0/gems/bootstrap-sass-3.3.7/assets/stylesheets
+  /usr/share/rvm/gems/ruby-3.0.0/gems/bootstrap-sass-3.3.7/assets/javascripts
+  /usr/share/rvm/gems/ruby-3.0.0/gems/bootstrap-sass-3.3.7/assets/fonts
+  /usr/share/rvm/gems/ruby-3.0.0/gems/bootstrap-sass-3.3.7/assets/images
+  /usr/share/rvm/gems/ruby-3.0.0/gems/font-awesome-sass-6.3.0/assets/stylesheets
+  /usr/share/rvm/gems/ruby-3.0.0/gems/font-awesome-sass-6.3.0/assets/fonts):
+     6:     %meta{:content => "width=device-width,initial-scale=1", :name => "viewport"}/
+     7:     = csrf_meta_tags
+     8:     = csp_meta_tag
+     9:     = stylesheet_link_tag "application", "data-turbo-track": "reload"
+    10:   %body
+    11:     = yield
+  
+app/assets/javascripts/application.js:2
+app/views/layouts/application.html.haml:9
+Started GET "/" for 127.0.0.1 at 2023-03-28 01:35:15 +0300
+Processing by MainController#index as HTML
+  Rendering layout layouts/application.html.haml
+  Rendering main/index.html.slim within layouts/application
+  Rendered main/index.html.slim within layouts/application (Duration: 8.9ms | Allocations: 16893)
+  Rendered layout layouts/application.html.haml (Duration: 286.2ms | Allocations: 485832)
+Completed 500 Internal Server Error in 292ms (ActiveRecord: 0.0ms | Allocations: 491302)
+
+
+  
+ActionView::Template::Error (couldn't find file 'jquery' with type 'application/javascript'
+Checked in these paths: 
+  /home/oleg/rubymine/RailsProject/app/assets/config
+  /home/oleg/rubymine/RailsProject/app/assets/images
+  /home/oleg/rubymine/RailsProject/app/assets/javascripts
+  /home/oleg/rubymine/RailsProject/app/assets/stylesheets
+  /usr/share/rvm/gems/ruby-3.0.0/gems/font-awesome-rails-4.7.0.8/app/assets/fonts
+  /usr/share/rvm/gems/ruby-3.0.0/gems/font-awesome-rails-4.7.0.8/app/assets/stylesheets
+  /usr/share/rvm/gems/ruby-3.0.0/gems/rails-asset-jqueryui-0.0.3/vendor/assets/images
+  /usr/share/rvm/gems/ruby-3.0.0/gems/rails-asset-jqueryui-0.0.3/vendor/assets/javascripts
+  /usr/share/rvm/gems/ruby-3.0.0/gems/rails-asset-jqueryui-0.0.3/vendor/assets/stylesheets
+  /usr/share/rvm/gems/ruby-3.0.0/gems/jquery-ui-rails-6.0.1/app/assets/images
+  /usr/share/rvm/gems/ruby-3.0.0/gems/jquery-ui-rails-6.0.1/app/assets/javascripts
+  /usr/share/rvm/gems/ruby-3.0.0/gems/jquery-ui-rails-6.0.1/app/assets/stylesheets
+  /usr/share/rvm/gems/ruby-3.0.0/gems/stimulus-rails-1.2.1/app/assets/javascripts
+  /usr/share/rvm/gems/ruby-3.0.0/gems/turbo-rails-1.4.0/app/assets/javascripts
+  /usr/share/rvm/gems/ruby-3.0.0/gems/importmap-rails-1.1.5/app/assets/javascripts
+  /usr/share/rvm/gems/ruby-3.0.0/gems/actiontext-7.0.4.3/app/assets/javascripts
+  /usr/share/rvm/gems/ruby-3.0.0/gems/actiontext-7.0.4.3/app/assets/stylesheets
+  /usr/share/rvm/gems/ruby-3.0.0/gems/actioncable-7.0.4.3/app/assets/javascripts
+  /usr/share/rvm/gems/ruby-3.0.0/gems/activestorage-7.0.4.3/app/assets/javascripts
+  /usr/share/rvm/gems/ruby-3.0.0/gems/actionview-7.0.4.3/lib/assets/compiled
+  /home/oleg/rubymine/RailsProject/app/javascript
+  /home/oleg/rubymine/RailsProject/vendor/javascript
+  /usr/share/rvm/gems/ruby-3.0.0/gems/bootstrap-sass-3.3.7/assets/stylesheets
+  /usr/share/rvm/gems/ruby-3.0.0/gems/bootstrap-sass-3.3.7/assets/javascripts
+  /usr/share/rvm/gems/ruby-3.0.0/gems/bootstrap-sass-3.3.7/assets/fonts
+  /usr/share/rvm/gems/ruby-3.0.0/gems/bootstrap-sass-3.3.7/assets/images
+  /usr/share/rvm/gems/ruby-3.0.0/gems/font-awesome-sass-6.3.0/assets/stylesheets
+  /usr/share/rvm/gems/ruby-3.0.0/gems/font-awesome-sass-6.3.0/assets/fonts):
+     6:     %meta{:content => "width=device-width,initial-scale=1", :name => "viewport"}/
+     7:     = csrf_meta_tags
+     8:     = csp_meta_tag
+     9:     = stylesheet_link_tag "application", "data-turbo-track": "reload"
+    10:   %body
+    11:     = yield
+  
+app/assets/javascripts/application.js:2
+app/views/layouts/application.html.haml:9
+Started GET "/" for 127.0.0.1 at 2023-03-28 01:35:19 +0300
+Processing by MainController#index as HTML
+  Rendering layout layouts/application.html.haml
+  Rendering main/index.html.slim within layouts/application
+  Rendered main/index.html.slim within layouts/application (Duration: 0.2ms | Allocations: 122)
+  Rendered layout layouts/application.html.haml (Duration: 19.0ms | Allocations: 37982)
+Completed 500 Internal Server Error in 21ms (ActiveRecord: 0.0ms | Allocations: 38261)
+
+
+  
+ActionView::Template::Error (couldn't find file 'jquery' with type 'application/javascript'
+Checked in these paths: 
+  /home/oleg/rubymine/RailsProject/app/assets/config
+  /home/oleg/rubymine/RailsProject/app/assets/images
+  /home/oleg/rubymine/RailsProject/app/assets/javascripts
+  /home/oleg/rubymine/RailsProject/app/assets/stylesheets
+  /usr/share/rvm/gems/ruby-3.0.0/gems/font-awesome-rails-4.7.0.8/app/assets/fonts
+  /usr/share/rvm/gems/ruby-3.0.0/gems/font-awesome-rails-4.7.0.8/app/assets/stylesheets
+  /usr/share/rvm/gems/ruby-3.0.0/gems/rails-asset-jqueryui-0.0.3/vendor/assets/images
+  /usr/share/rvm/gems/ruby-3.0.0/gems/rails-asset-jqueryui-0.0.3/vendor/assets/javascripts
+  /usr/share/rvm/gems/ruby-3.0.0/gems/rails-asset-jqueryui-0.0.3/vendor/assets/stylesheets
+  /usr/share/rvm/gems/ruby-3.0.0/gems/jquery-ui-rails-6.0.1/app/assets/images
+  /usr/share/rvm/gems/ruby-3.0.0/gems/jquery-ui-rails-6.0.1/app/assets/javascripts
+  /usr/share/rvm/gems/ruby-3.0.0/gems/jquery-ui-rails-6.0.1/app/assets/stylesheets
+  /usr/share/rvm/gems/ruby-3.0.0/gems/stimulus-rails-1.2.1/app/assets/javascripts
+  /usr/share/rvm/gems/ruby-3.0.0/gems/turbo-rails-1.4.0/app/assets/javascripts
+  /usr/share/rvm/gems/ruby-3.0.0/gems/importmap-rails-1.1.5/app/assets/javascripts
+  /usr/share/rvm/gems/ruby-3.0.0/gems/actiontext-7.0.4.3/app/assets/javascripts
+  /usr/share/rvm/gems/ruby-3.0.0/gems/actiontext-7.0.4.3/app/assets/stylesheets
+  /usr/share/rvm/gems/ruby-3.0.0/gems/actioncable-7.0.4.3/app/assets/javascripts
+  /usr/share/rvm/gems/ruby-3.0.0/gems/activestorage-7.0.4.3/app/assets/javascripts
+  /usr/share/rvm/gems/ruby-3.0.0/gems/actionview-7.0.4.3/lib/assets/compiled
+  /home/oleg/rubymine/RailsProject/app/javascript
+  /home/oleg/rubymine/RailsProject/vendor/javascript
+  /usr/share/rvm/gems/ruby-3.0.0/gems/bootstrap-sass-3.3.7/assets/stylesheets
+  /usr/share/rvm/gems/ruby-3.0.0/gems/bootstrap-sass-3.3.7/assets/javascripts
+  /usr/share/rvm/gems/ruby-3.0.0/gems/bootstrap-sass-3.3.7/assets/fonts
+  /usr/share/rvm/gems/ruby-3.0.0/gems/bootstrap-sass-3.3.7/assets/images
+  /usr/share/rvm/gems/ruby-3.0.0/gems/font-awesome-sass-6.3.0/assets/stylesheets
+  /usr/share/rvm/gems/ruby-3.0.0/gems/font-awesome-sass-6.3.0/assets/fonts):
+     6:     %meta{:content => "width=device-width,initial-scale=1", :name => "viewport"}/
+     7:     = csrf_meta_tags
+     8:     = csp_meta_tag
+     9:     = stylesheet_link_tag "application", "data-turbo-track": "reload"
+    10:   %body
+    11:     = yield
+  
+app/assets/javascripts/application.js:2
+app/views/layouts/application.html.haml:9
+Started GET "/" for 127.0.0.1 at 2023-03-28 01:36:49 +0300
+Processing by MainController#index as HTML
+  Rendering layout layouts/application.html.haml
+  Rendering main/index.html.slim within layouts/application
+  Rendered main/index.html.slim within layouts/application (Duration: 11.4ms | Allocations: 16893)
+  Rendered layout layouts/application.html.haml (Duration: 347.1ms | Allocations: 485794)
+Completed 500 Internal Server Error in 355ms (ActiveRecord: 0.0ms | Allocations: 491264)
+
+
+  
+ActionView::Template::Error (couldn't find file 'jquery' with type 'application/javascript'
+Checked in these paths: 
+  /home/oleg/rubymine/RailsProject/app/assets/config
+  /home/oleg/rubymine/RailsProject/app/assets/images
+  /home/oleg/rubymine/RailsProject/app/assets/javascripts
+  /home/oleg/rubymine/RailsProject/app/assets/stylesheets
+  /usr/share/rvm/gems/ruby-3.0.0/gems/font-awesome-rails-4.7.0.8/app/assets/fonts
+  /usr/share/rvm/gems/ruby-3.0.0/gems/font-awesome-rails-4.7.0.8/app/assets/stylesheets
+  /usr/share/rvm/gems/ruby-3.0.0/gems/rails-asset-jqueryui-0.0.3/vendor/assets/images
+  /usr/share/rvm/gems/ruby-3.0.0/gems/rails-asset-jqueryui-0.0.3/vendor/assets/javascripts
+  /usr/share/rvm/gems/ruby-3.0.0/gems/rails-asset-jqueryui-0.0.3/vendor/assets/stylesheets
+  /usr/share/rvm/gems/ruby-3.0.0/gems/jquery-ui-rails-6.0.1/app/assets/images
+  /usr/share/rvm/gems/ruby-3.0.0/gems/jquery-ui-rails-6.0.1/app/assets/javascripts
+  /usr/share/rvm/gems/ruby-3.0.0/gems/jquery-ui-rails-6.0.1/app/assets/stylesheets
+  /usr/share/rvm/gems/ruby-3.0.0/gems/stimulus-rails-1.2.1/app/assets/javascripts
+  /usr/share/rvm/gems/ruby-3.0.0/gems/turbo-rails-1.4.0/app/assets/javascripts
+  /usr/share/rvm/gems/ruby-3.0.0/gems/importmap-rails-1.1.5/app/assets/javascripts
+  /usr/share/rvm/gems/ruby-3.0.0/gems/actiontext-7.0.4.3/app/assets/javascripts
+  /usr/share/rvm/gems/ruby-3.0.0/gems/actiontext-7.0.4.3/app/assets/stylesheets
+  /usr/share/rvm/gems/ruby-3.0.0/gems/actioncable-7.0.4.3/app/assets/javascripts
+  /usr/share/rvm/gems/ruby-3.0.0/gems/activestorage-7.0.4.3/app/assets/javascripts
+  /usr/share/rvm/gems/ruby-3.0.0/gems/actionview-7.0.4.3/lib/assets/compiled
+  /home/oleg/rubymine/RailsProject/app/javascript
+  /home/oleg/rubymine/RailsProject/vendor/javascript
+  /usr/share/rvm/gems/ruby-3.0.0/gems/bootstrap-sass-3.3.7/assets/stylesheets
+  /usr/share/rvm/gems/ruby-3.0.0/gems/bootstrap-sass-3.3.7/assets/javascripts
+  /usr/share/rvm/gems/ruby-3.0.0/gems/bootstrap-sass-3.3.7/assets/fonts
+  /usr/share/rvm/gems/ruby-3.0.0/gems/bootstrap-sass-3.3.7/assets/images
+  /usr/share/rvm/gems/ruby-3.0.0/gems/font-awesome-sass-6.3.0/assets/stylesheets
+  /usr/share/rvm/gems/ruby-3.0.0/gems/font-awesome-sass-6.3.0/assets/fonts):
+     6:     %meta{:content => "width=device-width,initial-scale=1", :name => "viewport"}/
+     7:     = csrf_meta_tags
+     8:     = csp_meta_tag
+     9:     = stylesheet_link_tag "application", "data-turbo-track": "reload"
+    10:   %body
+    11:     = yield
+  
+app/assets/javascripts/application.js:1
+app/views/layouts/application.html.haml:9
+Started GET "/" for 127.0.0.1 at 2023-03-28 01:41:50 +0300
+Processing by MainController#index as HTML
+  Rendering layout layouts/application.html.haml
+  Rendering main/index.html.slim within layouts/application
+  Rendered main/index.html.slim within layouts/application (Duration: 11.7ms | Allocations: 16894)
+  Rendered layout layouts/application.html.haml (Duration: 338.4ms | Allocations: 482288)
+Completed 500 Internal Server Error in 345ms (ActiveRecord: 0.0ms | Allocations: 487758)
+
+
+  
+ActionView::Template::Error (couldn't find file 'jquery' with type 'application/javascript'
+Checked in these paths: 
+  /home/oleg/rubymine/RailsProject/app/assets/config
+  /home/oleg/rubymine/RailsProject/app/assets/images
+  /home/oleg/rubymine/RailsProject/app/assets/javascripts
+  /home/oleg/rubymine/RailsProject/app/assets/stylesheets
+  /usr/share/rvm/gems/ruby-3.0.0/gems/font-awesome-rails-4.7.0.8/app/assets/fonts
+  /usr/share/rvm/gems/ruby-3.0.0/gems/font-awesome-rails-4.7.0.8/app/assets/stylesheets
+  /usr/share/rvm/gems/ruby-3.0.0/gems/rails-asset-jqueryui-0.0.3/vendor/assets/images
+  /usr/share/rvm/gems/ruby-3.0.0/gems/rails-asset-jqueryui-0.0.3/vendor/assets/javascripts
+  /usr/share/rvm/gems/ruby-3.0.0/gems/rails-asset-jqueryui-0.0.3/vendor/assets/stylesheets
+  /usr/share/rvm/gems/ruby-3.0.0/gems/jquery-ui-rails-6.0.1/app/assets/images
+  /usr/share/rvm/gems/ruby-3.0.0/gems/jquery-ui-rails-6.0.1/app/assets/javascripts
+  /usr/share/rvm/gems/ruby-3.0.0/gems/jquery-ui-rails-6.0.1/app/assets/stylesheets
+  /usr/share/rvm/gems/ruby-3.0.0/gems/stimulus-rails-1.2.1/app/assets/javascripts
+  /usr/share/rvm/gems/ruby-3.0.0/gems/turbo-rails-1.4.0/app/assets/javascripts
+  /usr/share/rvm/gems/ruby-3.0.0/gems/importmap-rails-1.1.5/app/assets/javascripts
+  /usr/share/rvm/gems/ruby-3.0.0/gems/actiontext-7.0.4.3/app/assets/javascripts
+  /usr/share/rvm/gems/ruby-3.0.0/gems/actiontext-7.0.4.3/app/assets/stylesheets
+  /usr/share/rvm/gems/ruby-3.0.0/gems/actioncable-7.0.4.3/app/assets/javascripts
+  /usr/share/rvm/gems/ruby-3.0.0/gems/activestorage-7.0.4.3/app/assets/javascripts
+  /usr/share/rvm/gems/ruby-3.0.0/gems/actionview-7.0.4.3/lib/assets/compiled
+  /home/oleg/rubymine/RailsProject/app/javascript
+  /home/oleg/rubymine/RailsProject/vendor/javascript
+  /usr/share/rvm/gems/ruby-3.0.0/gems/bootstrap-sass-3.3.7/assets/stylesheets
+  /usr/share/rvm/gems/ruby-3.0.0/gems/bootstrap-sass-3.3.7/assets/javascripts
+  /usr/share/rvm/gems/ruby-3.0.0/gems/bootstrap-sass-3.3.7/assets/fonts
+  /usr/share/rvm/gems/ruby-3.0.0/gems/bootstrap-sass-3.3.7/assets/images
+  /usr/share/rvm/gems/ruby-3.0.0/gems/font-awesome-sass-6.3.0/assets/stylesheets
+  /usr/share/rvm/gems/ruby-3.0.0/gems/font-awesome-sass-6.3.0/assets/fonts):
+     6:     %meta{:content => "width=device-width,initial-scale=1", :name => "viewport"}/
+     7:     = csrf_meta_tags
+     8:     = csp_meta_tag
+     9:     = stylesheet_link_tag "application", "data-turbo-track": "reload"
+    10:   %body
+    11:     = yield
+  
+app/assets/javascripts/application.js:1
+app/views/layouts/application.html.haml:9
+Started GET "/" for 127.0.0.1 at 2023-03-28 01:43:42 +0300
+Processing by MainController#index as HTML
+  Rendering layout layouts/application.html.haml
+  Rendering main/index.html.slim within layouts/application
+  Rendered main/index.html.slim within layouts/application (Duration: 12.7ms | Allocations: 16894)
+  Rendered layout layouts/application.html.haml (Duration: 391.8ms | Allocations: 482288)
+Completed 500 Internal Server Error in 400ms (ActiveRecord: 0.0ms | Allocations: 487758)
+
+
+  
+ActionView::Template::Error (couldn't find file 'jquery' with type 'application/javascript'
+Checked in these paths: 
+  /home/oleg/rubymine/RailsProject/app/assets/config
+  /home/oleg/rubymine/RailsProject/app/assets/images
+  /home/oleg/rubymine/RailsProject/app/assets/javascripts
+  /home/oleg/rubymine/RailsProject/app/assets/stylesheets
+  /usr/share/rvm/gems/ruby-3.0.0/gems/font-awesome-rails-4.7.0.8/app/assets/fonts
+  /usr/share/rvm/gems/ruby-3.0.0/gems/font-awesome-rails-4.7.0.8/app/assets/stylesheets
+  /usr/share/rvm/gems/ruby-3.0.0/gems/rails-asset-jqueryui-0.0.3/vendor/assets/images
+  /usr/share/rvm/gems/ruby-3.0.0/gems/rails-asset-jqueryui-0.0.3/vendor/assets/javascripts
+  /usr/share/rvm/gems/ruby-3.0.0/gems/rails-asset-jqueryui-0.0.3/vendor/assets/stylesheets
+  /usr/share/rvm/gems/ruby-3.0.0/gems/jquery-ui-rails-6.0.1/app/assets/images
+  /usr/share/rvm/gems/ruby-3.0.0/gems/jquery-ui-rails-6.0.1/app/assets/javascripts
+  /usr/share/rvm/gems/ruby-3.0.0/gems/jquery-ui-rails-6.0.1/app/assets/stylesheets
+  /usr/share/rvm/gems/ruby-3.0.0/gems/stimulus-rails-1.2.1/app/assets/javascripts
+  /usr/share/rvm/gems/ruby-3.0.0/gems/turbo-rails-1.4.0/app/assets/javascripts
+  /usr/share/rvm/gems/ruby-3.0.0/gems/importmap-rails-1.1.5/app/assets/javascripts
+  /usr/share/rvm/gems/ruby-3.0.0/gems/actiontext-7.0.4.3/app/assets/javascripts
+  /usr/share/rvm/gems/ruby-3.0.0/gems/actiontext-7.0.4.3/app/assets/stylesheets
+  /usr/share/rvm/gems/ruby-3.0.0/gems/actioncable-7.0.4.3/app/assets/javascripts
+  /usr/share/rvm/gems/ruby-3.0.0/gems/activestorage-7.0.4.3/app/assets/javascripts
+  /usr/share/rvm/gems/ruby-3.0.0/gems/actionview-7.0.4.3/lib/assets/compiled
+  /home/oleg/rubymine/RailsProject/app/javascript
+  /home/oleg/rubymine/RailsProject/vendor/javascript
+  /usr/share/rvm/gems/ruby-3.0.0/gems/bootstrap-sass-3.3.7/assets/stylesheets
+  /usr/share/rvm/gems/ruby-3.0.0/gems/bootstrap-sass-3.3.7/assets/javascripts
+  /usr/share/rvm/gems/ruby-3.0.0/gems/bootstrap-sass-3.3.7/assets/fonts
+  /usr/share/rvm/gems/ruby-3.0.0/gems/bootstrap-sass-3.3.7/assets/images
+  /usr/share/rvm/gems/ruby-3.0.0/gems/font-awesome-sass-6.3.0/assets/stylesheets
+  /usr/share/rvm/gems/ruby-3.0.0/gems/font-awesome-sass-6.3.0/assets/fonts):
+     6:     %meta{:content => "width=device-width,initial-scale=1", :name => "viewport"}/
+     7:     = csrf_meta_tags
+     8:     = csp_meta_tag
+     9:     = stylesheet_link_tag "application", "data-turbo-track": "reload"
+    10:   %body
+    11:     = yield
+  
+app/assets/javascripts/application.js:1
+app/views/layouts/application.html.haml:9
+Started GET "/" for 127.0.0.1 at 2023-03-28 01:48:13 +0300
+Processing by MainController#index as HTML
+  Rendering layout layouts/application.html.haml
+  Rendering main/index.html.slim within layouts/application
+  Rendered main/index.html.slim within layouts/application (Duration: 8.7ms | Allocations: 16894)
+  Rendered layout layouts/application.html.haml (Duration: 476.7ms | Allocations: 594431)
+Completed 500 Internal Server Error in 483ms (ActiveRecord: 0.0ms | Allocations: 599900)
+
+
+  
+ActionView::Template::Error (couldn't find file 'turbolinks' with type 'application/javascript'
+Checked in these paths: 
+  /home/oleg/rubymine/RailsProject/app/assets/config
+  /home/oleg/rubymine/RailsProject/app/assets/images
+  /home/oleg/rubymine/RailsProject/app/assets/javascripts
+  /home/oleg/rubymine/RailsProject/app/assets/stylesheets
+  /usr/share/rvm/gems/ruby-3.0.0/gems/font-awesome-rails-4.7.0.8/app/assets/fonts
+  /usr/share/rvm/gems/ruby-3.0.0/gems/font-awesome-rails-4.7.0.8/app/assets/stylesheets
+  /usr/share/rvm/gems/ruby-3.0.0/gems/rails-asset-jqueryui-0.0.3/vendor/assets/images
+  /usr/share/rvm/gems/ruby-3.0.0/gems/rails-asset-jqueryui-0.0.3/vendor/assets/javascripts
+  /usr/share/rvm/gems/ruby-3.0.0/gems/rails-asset-jqueryui-0.0.3/vendor/assets/stylesheets
+  /usr/share/rvm/gems/ruby-3.0.0/gems/jquery-rails-4.5.1/vendor/assets/javascripts
+  /usr/share/rvm/gems/ruby-3.0.0/gems/jquery-ui-rails-6.0.1/app/assets/images
+  /usr/share/rvm/gems/ruby-3.0.0/gems/jquery-ui-rails-6.0.1/app/assets/javascripts
+  /usr/share/rvm/gems/ruby-3.0.0/gems/jquery-ui-rails-6.0.1/app/assets/stylesheets
+  /usr/share/rvm/gems/ruby-3.0.0/gems/stimulus-rails-1.2.1/app/assets/javascripts
+  /usr/share/rvm/gems/ruby-3.0.0/gems/turbo-rails-1.4.0/app/assets/javascripts
+  /usr/share/rvm/gems/ruby-3.0.0/gems/importmap-rails-1.1.5/app/assets/javascripts
+  /usr/share/rvm/gems/ruby-3.0.0/gems/actiontext-7.0.4.3/app/assets/javascripts
+  /usr/share/rvm/gems/ruby-3.0.0/gems/actiontext-7.0.4.3/app/assets/stylesheets
+  /usr/share/rvm/gems/ruby-3.0.0/gems/actioncable-7.0.4.3/app/assets/javascripts
+  /usr/share/rvm/gems/ruby-3.0.0/gems/activestorage-7.0.4.3/app/assets/javascripts
+  /usr/share/rvm/gems/ruby-3.0.0/gems/actionview-7.0.4.3/lib/assets/compiled
+  /home/oleg/rubymine/RailsProject/app/javascript
+  /home/oleg/rubymine/RailsProject/vendor/javascript
+  /usr/share/rvm/gems/ruby-3.0.0/gems/bootstrap-sass-3.3.7/assets/stylesheets
+  /usr/share/rvm/gems/ruby-3.0.0/gems/bootstrap-sass-3.3.7/assets/javascripts
+  /usr/share/rvm/gems/ruby-3.0.0/gems/bootstrap-sass-3.3.7/assets/fonts
+  /usr/share/rvm/gems/ruby-3.0.0/gems/bootstrap-sass-3.3.7/assets/images
+  /usr/share/rvm/gems/ruby-3.0.0/gems/font-awesome-sass-6.3.0/assets/stylesheets
+  /usr/share/rvm/gems/ruby-3.0.0/gems/font-awesome-sass-6.3.0/assets/fonts):
+     6:     %meta{:content => "width=device-width,initial-scale=1", :name => "viewport"}/
+     7:     = csrf_meta_tags
+     8:     = csp_meta_tag
+     9:     = stylesheet_link_tag "application", "data-turbo-track": "reload"
+    10:   %body
+    11:     = yield
+  
+app/assets/javascripts/application.js:3
+app/views/layouts/application.html.haml:9
+Started GET "/" for 127.0.0.1 at 2023-03-28 01:50:07 +0300
+Processing by MainController#index as HTML
+  Rendering layout layouts/application.html.haml
+  Rendering main/index.html.slim within layouts/application
+  Rendered main/index.html.slim within layouts/application (Duration: 15.0ms | Allocations: 16894)
+  Rendered layout layouts/application.html.haml (Duration: 526.7ms | Allocations: 537496)
+Completed 200 OK in 538ms (Views: 530.1ms | ActiveRecord: 0.0ms | Allocations: 543017)
+
+
+Started GET "/main/contacts" for 127.0.0.1 at 2023-03-28 01:50:10 +0300
+Processing by MainController#contacts as HTML
+  Rendering layout layouts/application.html.haml
+  Rendering main/contacts.html.slim within layouts/application
+  Rendered main/contacts.html.slim within layouts/application (Duration: 4.0ms | Allocations: 1958)
+  Rendered layout layouts/application.html.haml (Duration: 6.0ms | Allocations: 4560)
+Completed 200 OK in 7ms (Views: 6.5ms | ActiveRecord: 0.0ms | Allocations: 4926)
+
+
+Started GET "/main/help" for 127.0.0.1 at 2023-03-28 01:50:13 +0300
+Processing by MainController#help as HTML
+  Rendering layout layouts/application.html.haml
+  Rendering main/help.html.slim within layouts/application
+  Rendered main/help.html.slim within layouts/application (Duration: 2.7ms | Allocations: 1943)
+  Rendered layout layouts/application.html.haml (Duration: 4.9ms | Allocations: 4505)
+Completed 200 OK in 6ms (Views: 5.3ms | ActiveRecord: 0.0ms | Allocations: 4869)
+
+
+Started GET "/main/about" for 127.0.0.1 at 2023-03-28 01:50:17 +0300
+Processing by MainController#about as HTML
+  Rendering layout layouts/application.html.haml
+  Rendering main/about.html.slim within layouts/application
+  Rendered main/about.html.slim within layouts/application (Duration: 2.4ms | Allocations: 1943)
+  Rendered layout layouts/application.html.haml (Duration: 4.3ms | Allocations: 4513)
+Completed 200 OK in 6ms (Views: 4.9ms | ActiveRecord: 0.0ms | Allocations: 4877)
+
+
+Started GET "/" for 127.0.0.1 at 2023-03-28 01:55:22 +0300
+Processing by MainController#index as HTML
+  Rendering layout layouts/application.html.haml
+  Rendering main/index.html.slim within layouts/application
+  Rendered main/index.html.slim within layouts/application (Duration: 12.4ms | Allocations: 16894)
+  Rendered shared/_header.html.haml (Duration: 2.2ms | Allocations: 2114)
+  Rendered shared/_footer.html.haml (Duration: 315.7ms | Allocations: 498829)
+  Rendered layout layouts/application.html.haml (Duration: 337.7ms | Allocations: 525134)
+Completed 200 OK in 345ms (Views: 339.7ms | ActiveRecord: 0.0ms | Allocations: 530653)
+
+
+Started GET "/" for 127.0.0.1 at 2023-03-28 01:56:16 +0300
+Processing by MainController#index as HTML
+  Rendering layout layouts/application.html.haml
+  Rendering main/index.html.slim within layouts/application
+  Rendered main/index.html.slim within layouts/application (Duration: 12.8ms | Allocations: 16894)
+  Rendered shared/_header.html.haml (Duration: 426.9ms | Allocations: 498854)
+  Rendered shared/_footer.html.haml (Duration: 2.7ms | Allocations: 2114)
+  Rendered layout layouts/application.html.haml (Duration: 452.0ms | Allocations: 525159)
+Completed 200 OK in 461ms (Views: 454.3ms | ActiveRecord: 0.0ms | Allocations: 530678)
+
+
+Started GET "/main/contacts" for 127.0.0.1 at 2023-03-28 01:56:18 +0300
+Processing by MainController#contacts as HTML
+  Rendering layout layouts/application.html.haml
+  Rendering main/contacts.html.slim within layouts/application
+  Rendered main/contacts.html.slim within layouts/application (Duration: 2.3ms | Allocations: 1957)
+  Rendered shared/_header.html.haml (Duration: 1.8ms | Allocations: 2501)
+  Rendered shared/_footer.html.haml (Duration: 0.0ms | Allocations: 11)
+  Rendered layout layouts/application.html.haml (Duration: 4.5ms | Allocations: 4655)
+Completed 200 OK in 6ms (Views: 5.0ms | ActiveRecord: 0.0ms | Allocations: 5021)
+
+
+Started GET "/main/about" for 127.0.0.1 at 2023-03-28 01:56:21 +0300
+Processing by MainController#about as HTML
+  Rendering layout layouts/application.html.haml
+  Rendering main/about.html.slim within layouts/application
+  Rendered main/about.html.slim within layouts/application (Duration: 2.5ms | Allocations: 1943)
+  Rendered shared/_header.html.haml (Duration: 1.8ms | Allocations: 2499)
+  Rendered shared/_footer.html.haml (Duration: 0.0ms | Allocations: 11)
+  Rendered layout layouts/application.html.haml (Duration: 4.8ms | Allocations: 4639)
+Completed 200 OK in 6ms (Views: 5.2ms | ActiveRecord: 0.0ms | Allocations: 5003)
+
+
+Started GET "/main/contacts" for 127.0.0.1 at 2023-03-28 02:07:33 +0300
+Processing by MainController#contacts as HTML
+  Rendering layout layouts/application.html.haml
+  Rendering main/contacts.html.slim within layouts/application
+  Rendered main/contacts.html.slim within layouts/application (Duration: 0.1ms | Allocations: 7)
+  Rendered shared/_header.html.haml (Duration: 2.1ms | Allocations: 2497)
+  Rendered shared/_footer.html.haml (Duration: 0.0ms | Allocations: 11)
+  Rendered layout layouts/application.html.haml (Duration: 2.6ms | Allocations: 2701)
+Completed 200 OK in 4ms (Views: 3.1ms | Allocations: 3007)
+
+
+  [1m[35m (7.7ms)[0m  [1m[35mCREATE TABLE "schema_migrations" ("version" character varying NOT NULL PRIMARY KEY)[0m
+  [1m[35m (5.9ms)[0m  [1m[35mCREATE TABLE "ar_internal_metadata" ("key" character varying NOT NULL PRIMARY KEY, "value" character varying, "created_at" timestamp(6) NOT NULL, "updated_at" timestamp(6) NOT NULL)[0m
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT pg_try_advisory_lock(6643483464595264770)[0m
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.7ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Migrating to CreateUsers (20230402141917)
+  [1m[36mTRANSACTION (0.5ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (5.5ms)[0m  [1m[35mCREATE TABLE "users" ("id" bigserial primary key, "name" character varying, "email" character varying, "created_at" timestamp(6) NOT NULL, "updated_at" timestamp(6) NOT NULL)[0m
+  [1m[36mActiveRecord::SchemaMigration Create (0.8ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES ($1) RETURNING "version"[0m  [["version", "20230402141917"]]
+  [1m[36mTRANSACTION (1.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.6ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.5ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mActiveRecord::InternalMetadata Create (0.7ms)[0m  [1m[32mINSERT INTO "ar_internal_metadata" ("key", "value", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "key"[0m  [["key", "environment"], ["value", "development"], ["created_at", "2023-04-02 14:19:38.157658"], ["updated_at", "2023-04-02 14:19:38.157658"]]
+  [1m[36mTRANSACTION (1.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (1.2ms)[0m  [1m[34mSELECT pg_advisory_unlock(6643483464595264770)[0m
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.8ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Started GET "/users" for 127.0.0.1 at 2023-04-02 17:22:20 +0300
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.7ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by UsersController#index as HTML
+  Rendering layout layouts/application.html.haml
+  Rendering users/index.html.haml within layouts/application
+  [1m[36mUser Load (0.9ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/views/users/index.html.haml:13
+  Rendered users/index.html.haml within layouts/application (Duration: 9.8ms | Allocations: 14658)
+  Rendered shared/_header.html.haml (Duration: 658.5ms | Allocations: 628122)
+  Rendered shared/_footer.html.haml (Duration: 2.5ms | Allocations: 2114)
+  Rendered layout layouts/application.html.haml (Duration: 673.8ms | Allocations: 647676)
+Completed 200 OK in 684ms (Views: 675.6ms | ActiveRecord: 0.9ms | Allocations: 653930)
+
+
+Started GET "/users/new" for 127.0.0.1 at 2023-04-02 17:22:23 +0300
+Processing by UsersController#new as HTML
+  Rendering layout layouts/application.html.haml
+  Rendering users/new.html.haml within layouts/application
+  Rendered users/_form.html.haml (Duration: 16.0ms | Allocations: 11694)
+  Rendered users/new.html.haml within layouts/application (Duration: 19.8ms | Allocations: 14389)
+  Rendered shared/_header.html.haml (Duration: 1.3ms | Allocations: 2329)
+  Rendered shared/_footer.html.haml (Duration: 0.0ms | Allocations: 11)
+  Rendered layout layouts/application.html.haml (Duration: 21.5ms | Allocations: 16915)
+Completed 200 OK in 37ms (Views: 22.0ms | ActiveRecord: 5.2ms | Allocations: 32934)
+
+
+Started POST "/users" for 127.0.0.1 at 2023-04-02 17:22:33 +0300
+Processing by UsersController#create as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "user"=>{"name"=>"postgres", "email"=>"postgres"}, "commit"=>"Save"}
+  [1m[36mTRANSACTION (0.5ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/users_controller.rb:27:in `block in create'
+  [1m[36mUser Create (1.2ms)[0m  [1m[32mINSERT INTO "users" ("name", "email", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["name", "postgres"], ["email", "postgres"], ["created_at", "2023-04-02 14:22:33.445596"], ["updated_at", "2023-04-02 14:22:33.445596"]]
+  ↳ app/controllers/users_controller.rb:27:in `block in create'
+  [1m[36mTRANSACTION (1.9ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/users_controller.rb:27:in `block in create'
+Redirected to http://localhost:3000/users/1
+Completed 302 Found in 10ms (ActiveRecord: 3.6ms | Allocations: 3352)
+
+
+Started GET "/users/1" for 127.0.0.1 at 2023-04-02 17:22:33 +0300
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:63:in `set_user'
+  Rendering layout layouts/application.html.haml
+  Rendering users/show.html.haml within layouts/application
+  Rendered users/show.html.haml within layouts/application (Duration: 3.0ms | Allocations: 4301)
+  Rendered shared/_header.html.haml (Duration: 2.1ms | Allocations: 2336)
+  Rendered shared/_footer.html.haml (Duration: 0.0ms | Allocations: 11)
+  Rendered layout layouts/application.html.haml (Duration: 5.6ms | Allocations: 6834)
+Completed 200 OK in 11ms (Views: 6.0ms | ActiveRecord: 1.2ms | Allocations: 9599)
+
+
+Started GET "/users" for 127.0.0.1 at 2023-04-02 17:22:38 +0300
+Processing by UsersController#index as HTML
+  Rendering layout layouts/application.html.haml
+  Rendering users/index.html.haml within layouts/application
+  [1m[36mUser Load (0.9ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/views/users/index.html.haml:13
+  Rendered users/index.html.haml within layouts/application (Duration: 4.7ms | Allocations: 733)
+  Rendered shared/_header.html.haml (Duration: 1.8ms | Allocations: 2488)
+  Rendered shared/_footer.html.haml (Duration: 0.0ms | Allocations: 11)
+  Rendered layout layouts/application.html.haml (Duration: 7.0ms | Allocations: 3418)
+Completed 200 OK in 8ms (Views: 6.6ms | ActiveRecord: 0.9ms | Allocations: 3745)
+
+
+Started GET "/users/1" for 127.0.0.1 at 2023-04-02 17:22:41 +0300
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (1.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:63:in `set_user'
+  Rendering layout layouts/application.html.haml
+  Rendering users/show.html.haml within layouts/application
+  Rendered users/show.html.haml within layouts/application (Duration: 0.4ms | Allocations: 253)
+  Rendered shared/_header.html.haml (Duration: 1.7ms | Allocations: 2336)
+  Rendered shared/_footer.html.haml (Duration: 0.0ms | Allocations: 11)
+  Rendered layout layouts/application.html.haml (Duration: 2.5ms | Allocations: 2786)
+Completed 200 OK in 7ms (Views: 3.0ms | ActiveRecord: 1.0ms | Allocations: 3575)
+
+
+Started GET "/users" for 127.0.0.1 at 2023-04-02 17:28:09 +0300
+Processing by UsersController#index as HTML
+  Rendering layout layouts/application.html.haml
+  Rendering users/index.html.haml within layouts/application
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/views/users/index.html.haml:13
+  Rendered users/index.html.haml within layouts/application (Duration: 17.9ms | Allocations: 3569)
+  Rendered shared/_header.html.haml (Duration: 1.9ms | Allocations: 2500)
+  Rendered shared/_footer.html.haml (Duration: 0.0ms | Allocations: 11)
+  Rendered layout layouts/application.html.haml (Duration: 20.2ms | Allocations: 6265)
+Completed 200 OK in 21ms (Views: 20.5ms | ActiveRecord: 7.7ms | Allocations: 6582)
+
+
+Started GET "/users/new" for 127.0.0.1 at 2023-04-02 17:28:12 +0300
+Processing by UsersController#new as HTML
+  Rendering layout layouts/application.html.haml
+  Rendering users/new.html.haml within layouts/application
+  Rendered users/_form.html.haml (Duration: 7.7ms | Allocations: 900)
+  Rendered users/new.html.haml within layouts/application (Duration: 8.0ms | Allocations: 987)
+  Rendered shared/_header.html.haml (Duration: 29.5ms | Allocations: 2329)
+  Rendered shared/_footer.html.haml (Duration: 0.0ms | Allocations: 11)
+  Rendered layout layouts/application.html.haml (Duration: 38.0ms | Allocations: 3512)
+Completed 200 OK in 43ms (Views: 38.7ms | ActiveRecord: 0.0ms | Allocations: 3833)
+
+
+Started POST "/users" for 127.0.0.1 at 2023-04-02 17:28:22 +0300
+Processing by UsersController#create as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "user"=>{"name"=>"user", "email"=>"user"}, "commit"=>"Save"}
+  [1m[36mTRANSACTION (1.4ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/users_controller.rb:27:in `block in create'
+  [1m[36mUser Create (1.5ms)[0m  [1m[32mINSERT INTO "users" ("name", "email", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["name", "user"], ["email", "user"], ["created_at", "2023-04-02 14:28:22.579275"], ["updated_at", "2023-04-02 14:28:22.579275"]]
+  ↳ app/controllers/users_controller.rb:27:in `block in create'
+  [1m[36mTRANSACTION (2.8ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/users_controller.rb:27:in `block in create'
+Redirected to http://localhost:3000/users/2
+Completed 302 Found in 18ms (ActiveRecord: 5.7ms | Allocations: 2179)
+
+
+Started GET "/users/2" for 127.0.0.1 at 2023-04-02 17:28:22 +0300
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mUser Load (2.6ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:63:in `set_user'
+  Rendering layout layouts/application.html.haml
+  Rendering users/show.html.haml within layouts/application
+  Rendered users/show.html.haml within layouts/application (Duration: 0.8ms | Allocations: 262)
+  Rendered shared/_header.html.haml (Duration: 30.6ms | Allocations: 2336)
+  Rendered shared/_footer.html.haml (Duration: 0.1ms | Allocations: 11)
+  Rendered layout layouts/application.html.haml (Duration: 34.1ms | Allocations: 2794)
+Completed 200 OK in 47ms (Views: 37.2ms | ActiveRecord: 3.3ms | Allocations: 3596)
+
+
+Started GET "/users" for 127.0.0.1 at 2023-04-02 17:28:24 +0300
+Processing by UsersController#index as HTML
+  Rendering layout layouts/application.html.haml
+  Rendering users/index.html.haml within layouts/application
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/views/users/index.html.haml:13
+  Rendered users/index.html.haml within layouts/application (Duration: 9.7ms | Allocations: 863)
+  Rendered shared/_header.html.haml (Duration: 2.2ms | Allocations: 2508)
+  Rendered shared/_footer.html.haml (Duration: 0.0ms | Allocations: 11)
+  Rendered layout layouts/application.html.haml (Duration: 12.5ms | Allocations: 3567)
+Completed 200 OK in 13ms (Views: 12.2ms | ActiveRecord: 0.6ms | Allocations: 3886)
+
+
+Started GET "/users/1/edit" for 127.0.0.1 at 2023-04-02 17:28:45 +0300
+Processing by UsersController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:63:in `set_user'
+  Rendering layout layouts/application.html.haml
+  Rendering users/edit.html.haml within layouts/application
+  Rendered users/_form.html.haml (Duration: 1.1ms | Allocations: 981)
+  Rendered users/edit.html.haml within layouts/application (Duration: 4.7ms | Allocations: 3997)
+  Rendered shared/_header.html.haml (Duration: 1.6ms | Allocations: 2321)
+  Rendered shared/_footer.html.haml (Duration: 0.0ms | Allocations: 11)
+  Rendered layout layouts/application.html.haml (Duration: 6.8ms | Allocations: 6514)
+Completed 200 OK in 11ms (Views: 8.6ms | ActiveRecord: 0.7ms | Allocations: 7341)
+
+
+Started GET "/users" for 127.0.0.1 at 2023-04-02 17:29:09 +0300
+Processing by UsersController#index as HTML
+  Rendering layout layouts/application.html.haml
+  Rendering users/index.html.haml within layouts/application
+  [1m[36mUser Load (1.1ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/views/users/index.html.haml:13
+  Rendered users/index.html.haml within layouts/application (Duration: 5.0ms | Allocations: 860)
+  Rendered shared/_header.html.haml (Duration: 2.7ms | Allocations: 2499)
+  Rendered shared/_footer.html.haml (Duration: 0.1ms | Allocations: 11)
+  Rendered layout layouts/application.html.haml (Duration: 8.3ms | Allocations: 3555)
+Completed 200 OK in 11ms (Views: 8.6ms | ActiveRecord: 1.1ms | Allocations: 3874)
+
+
+Started GET "/users/1" for 127.0.0.1 at 2023-04-02 17:29:10 +0300
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:63:in `set_user'
+  Rendering layout layouts/application.html.haml
+  Rendering users/show.html.haml within layouts/application
+  Rendered users/show.html.haml within layouts/application (Duration: 0.4ms | Allocations: 259)
+  Rendered shared/_header.html.haml (Duration: 1.7ms | Allocations: 2336)
+  Rendered shared/_footer.html.haml (Duration: 0.0ms | Allocations: 11)
+  Rendered layout layouts/application.html.haml (Duration: 2.4ms | Allocations: 2791)
+Completed 200 OK in 5ms (Views: 2.8ms | ActiveRecord: 0.6ms | Allocations: 3563)
+
+
+Started GET "/" for 127.0.0.1 at 2023-04-04 09:15:51 +0300
+  [1m[36mActiveRecord::SchemaMigration Pluck (1.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by MainController#index as HTML
+  Rendering layout layouts/application.html.haml
+  Rendering main/index.html.slim within layouts/application
+  Rendered main/index.html.slim within layouts/application (Duration: 30.8ms | Allocations: 16876)
+  Rendered shared/_header.html.haml (Duration: 309.3ms | Allocations: 498698)
+  Rendered shared/_footer.html.haml (Duration: 3.2ms | Allocations: 2114)
+  Rendered layout layouts/application.html.haml (Duration: 351.6ms | Allocations: 524979)
+Completed 200 OK in 372ms (Views: 360.1ms | ActiveRecord: 0.0ms | Allocations: 530459)
+
+
+Started GET "/users" for 127.0.0.1 at 2023-04-04 09:16:09 +0300
+Processing by UsersController#index as HTML
+  Rendering layout layouts/application.html.haml
+  Rendering users/index.html.haml within layouts/application
+  [1m[36mUser Load (4.4ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/views/users/index.html.haml:13
+  Rendered users/index.html.haml within layouts/application (Duration: 84.9ms | Allocations: 23153)
+  Rendered shared/_header.html.haml (Duration: 3.7ms | Allocations: 2588)
+  Rendered shared/_footer.html.haml (Duration: 0.1ms | Allocations: 13)
+  Rendered layout layouts/application.html.haml (Duration: 89.9ms | Allocations: 25943)
+Completed 200 OK in 94ms (Views: 74.0ms | ActiveRecord: 17.7ms | Allocations: 27593)
+
+
+Started GET "/users/2/edit" for 127.0.0.1 at 2023-04-04 09:16:13 +0300
+Processing by UsersController#edit as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:63:in `set_user'
+  Rendering layout layouts/application.html.haml
+  Rendering users/edit.html.haml within layouts/application
+  Rendered users/_form.html.haml (Duration: 22.3ms | Allocations: 9396)
+  Rendered users/edit.html.haml within layouts/application (Duration: 30.3ms | Allocations: 12410)
+  Rendered shared/_header.html.haml (Duration: 2.6ms | Allocations: 2321)
+  Rendered shared/_footer.html.haml (Duration: 0.0ms | Allocations: 11)
+  Rendered layout layouts/application.html.haml (Duration: 33.6ms | Allocations: 14928)
+Completed 200 OK in 45ms (Views: 34.6ms | ActiveRecord: 1.2ms | Allocations: 17696)
+
+
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT pg_try_advisory_lock(6643483464595264770)[0m
+  [1m[36mActiveRecord::SchemaMigration Pluck (1.9ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mActiveRecord::InternalMetadata Load (1.5ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT pg_advisory_unlock(6643483464595264770)[0m
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.7ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT pg_try_advisory_lock(6643483464595264770)[0m
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.7ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.5ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.8ms)[0m  [1m[34mSELECT pg_advisory_unlock(6643483464595264770)[0m
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.8ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT pg_try_advisory_lock(6643483464595264770)[0m
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.6ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Migrating to CreateImages (20230409183908)
+  [1m[36mTRANSACTION (0.5ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (8.5ms)[0m  [1m[35mCREATE TABLE "images" ("id" bigserial primary key, "name" integer, "file" character varying, "ave_value" float, "theme_id" integer, "created_at" timestamp(6) NOT NULL, "updated_at" timestamp(6) NOT NULL)[0m
+  [1m[36mActiveRecord::SchemaMigration Create (0.6ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES ($1) RETURNING "version"[0m  [["version", "20230409183908"]]
+  [1m[36mTRANSACTION (1.5ms)[0m  [1m[35mCOMMIT[0m
+Migrating to CreateValues (20230409184014)
+  [1m[36mTRANSACTION (0.4ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (3.4ms)[0m  [1m[35mCREATE TABLE "values" ("id" bigserial primary key, "user_id" integer, "image_id" integer, "value" integer, "created_at" timestamp(6) NOT NULL, "updated_at" timestamp(6) NOT NULL)[0m
+  [1m[36mActiveRecord::SchemaMigration Create (0.6ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES ($1) RETURNING "version"[0m  [["version", "20230409184014"]]
+  [1m[36mTRANSACTION (1.2ms)[0m  [1m[35mCOMMIT[0m
+Migrating to CreateThemes (20230409184124)
+  [1m[36mTRANSACTION (0.6ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (7.7ms)[0m  [1m[35mCREATE TABLE "themes" ("id" bigserial primary key, "name" character varying, "qty_items" integer, "created_at" timestamp(6) NOT NULL, "updated_at" timestamp(6) NOT NULL)[0m
+  [1m[36mActiveRecord::SchemaMigration Create (0.5ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES ($1) RETURNING "version"[0m  [["version", "20230409184124"]]
+  [1m[36mTRANSACTION (1.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.6ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT pg_advisory_unlock(6643483464595264770)[0m
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Started GET "/" for 127.0.0.1 at 2023-04-09 21:46:00 +0300
+  [1m[36mActiveRecord::SchemaMigration Pluck (1.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by MainController#index as HTML
+  Rendering layout layouts/application.html.haml
+  Rendering main/index.html.slim within layouts/application
+  Rendered main/index.html.slim within layouts/application (Duration: 10.8ms | Allocations: 16873)
+  Rendered shared/_header.html.haml (Duration: 596.9ms | Allocations: 642440)
+  Rendered shared/_footer.html.haml (Duration: 2.1ms | Allocations: 2114)
+  Rendered layout layouts/application.html.haml (Duration: 620.1ms | Allocations: 668718)
+Completed 200 OK in 627ms (Views: 622.4ms | ActiveRecord: 0.0ms | Allocations: 674239)
+
+
+Started GET "/main/contacts" for 127.0.0.1 at 2023-04-09 21:46:07 +0300
+Processing by MainController#contacts as HTML
+  Rendering layout layouts/application.html.haml
+  Rendering main/contacts.html.slim within layouts/application
+  Rendered main/contacts.html.slim within layouts/application (Duration: 3.4ms | Allocations: 1956)
+  Rendered shared/_header.html.haml (Duration: 1.8ms | Allocations: 2527)
+  Rendered shared/_footer.html.haml (Duration: 0.0ms | Allocations: 11)
+  Rendered layout layouts/application.html.haml (Duration: 5.8ms | Allocations: 4680)
+Completed 200 OK in 7ms (Views: 6.3ms | ActiveRecord: 0.0ms | Allocations: 5045)
+
+
+Started GET "/images" for 127.0.0.1 at 2023-04-09 21:46:13 +0300
+Processing by ImagesController#index as HTML
+  Rendering layout layouts/application.html.haml
+  Rendering images/index.html.haml within layouts/application
+  [1m[36mImage Load (1.0ms)[0m  [1m[34mSELECT "images".* FROM "images"[0m
+  ↳ app/views/images/index.html.haml:15
+  Rendered images/index.html.haml within layouts/application (Duration: 11.4ms | Allocations: 8272)
+  Rendered shared/_header.html.haml (Duration: 3.7ms | Allocations: 2567)
+  Rendered shared/_footer.html.haml (Duration: 0.0ms | Allocations: 13)
+  Rendered layout layouts/application.html.haml (Duration: 16.5ms | Allocations: 11041)
+Completed 200 OK in 23ms (Views: 18.4ms | ActiveRecord: 1.0ms | Allocations: 12711)
+
+
+Started GET "/images/new" for 127.0.0.1 at 2023-04-09 21:46:16 +0300
+Processing by ImagesController#new as HTML
+  Rendering layout layouts/application.html.haml
+  Rendering images/new.html.haml within layouts/application
+  Rendered images/_form.html.haml (Duration: 10.2ms | Allocations: 11748)
+  Rendered images/new.html.haml within layouts/application (Duration: 12.7ms | Allocations: 14363)
+  Rendered shared/_header.html.haml (Duration: 1.4ms | Allocations: 2336)
+  Rendered shared/_footer.html.haml (Duration: 0.0ms | Allocations: 11)
+  Rendered layout layouts/application.html.haml (Duration: 14.5ms | Allocations: 16896)
+Completed 200 OK in 35ms (Views: 14.9ms | ActiveRecord: 4.6ms | Allocations: 37735)
+
+
+Started GET "/images" for 127.0.0.1 at 2023-04-09 21:46:24 +0300
+Processing by ImagesController#index as HTML
+  Rendering layout layouts/application.html.haml
+  Rendering images/index.html.haml within layouts/application
+  [1m[36mImage Load (0.8ms)[0m  [1m[34mSELECT "images".* FROM "images"[0m
+  ↳ app/views/images/index.html.haml:15
+  Rendered images/index.html.haml within layouts/application (Duration: 3.2ms | Allocations: 568)
+  Rendered shared/_header.html.haml (Duration: 3.3ms | Allocations: 2507)
+  Rendered shared/_footer.html.haml (Duration: 0.0ms | Allocations: 11)
+  Rendered layout layouts/application.html.haml (Duration: 7.2ms | Allocations: 3272)
+Completed 200 OK in 8ms (Views: 6.8ms | ActiveRecord: 0.8ms | Allocations: 3599)
+
+
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.7ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mImage Delete All (2.1ms)[0m  [1m[31mDELETE FROM "images"[0m
+  [1m[36mTRANSACTION (0.5ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mImage Create (0.7ms)[0m  [1m[32mINSERT INTO "images" ("name", "file", "ave_value", "theme_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["name", 0], ["file", "big_cat.jpg"], ["ave_value", nil], ["theme_id", 2], ["created_at", "2023-04-09 18:52:36.973273"], ["updated_at", "2023-04-09 18:52:36.973273"]]
+  [1m[36mTRANSACTION (1.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.4ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mImage Create (0.5ms)[0m  [1m[32mINSERT INTO "images" ("name", "file", "ave_value", "theme_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["name", 0], ["file", "black_white.jpg"], ["ave_value", nil], ["theme_id", 2], ["created_at", "2023-04-09 18:52:36.978897"], ["updated_at", "2023-04-09 18:52:36.978897"]]
+  [1m[36mTRANSACTION (1.1ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.4ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mImage Create (0.5ms)[0m  [1m[32mINSERT INTO "images" ("name", "file", "ave_value", "theme_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["name", 0], ["file", "cat.jpg"], ["ave_value", nil], ["theme_id", 3], ["created_at", "2023-04-09 18:52:36.982960"], ["updated_at", "2023-04-09 18:52:36.982960"]]
+  [1m[36mTRANSACTION (1.1ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.4ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mImage Create (0.6ms)[0m  [1m[32mINSERT INTO "images" ("name", "file", "ave_value", "theme_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["name", 0], ["file", "grace.jpg"], ["ave_value", nil], ["theme_id", 4], ["created_at", "2023-04-09 18:52:36.986785"], ["updated_at", "2023-04-09 18:52:36.986785"]]
+  [1m[36mTRANSACTION (1.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.4ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mImage Create (0.5ms)[0m  [1m[32mINSERT INTO "images" ("name", "file", "ave_value", "theme_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["name", 0], ["file", "HolywoodLC.jpg"], ["ave_value", nil], ["theme_id", 3], ["created_at", "2023-04-09 18:52:36.990620"], ["updated_at", "2023-04-09 18:52:36.990620"]]
+  [1m[36mTRANSACTION (1.1ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mImage Create (0.5ms)[0m  [1m[32mINSERT INTO "images" ("name", "file", "ave_value", "theme_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["name", 0], ["file", "img1.jpg"], ["ave_value", nil], ["theme_id", 4], ["created_at", "2023-04-09 18:52:36.994962"], ["updated_at", "2023-04-09 18:52:36.994962"]]
+  [1m[36mTRANSACTION (1.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.4ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mImage Create (0.5ms)[0m  [1m[32mINSERT INTO "images" ("name", "file", "ave_value", "theme_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["name", 0], ["file", "img2.jpg"], ["ave_value", nil], ["theme_id", 3], ["created_at", "2023-04-09 18:52:36.998884"], ["updated_at", "2023-04-09 18:52:36.998884"]]
+  [1m[36mTRANSACTION (1.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mImage Create (0.5ms)[0m  [1m[32mINSERT INTO "images" ("name", "file", "ave_value", "theme_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["name", 0], ["file", "img3.jpg"], ["ave_value", nil], ["theme_id", 4], ["created_at", "2023-04-09 18:52:37.002705"], ["updated_at", "2023-04-09 18:52:37.002705"]]
+  [1m[36mTRANSACTION (1.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.4ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mImage Create (0.5ms)[0m  [1m[32mINSERT INTO "images" ("name", "file", "ave_value", "theme_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["name", 0], ["file", "img4.jpg"], ["ave_value", nil], ["theme_id", 3], ["created_at", "2023-04-09 18:52:37.006762"], ["updated_at", "2023-04-09 18:52:37.006762"]]
+  [1m[36mTRANSACTION (1.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.4ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mImage Create (0.6ms)[0m  [1m[32mINSERT INTO "images" ("name", "file", "ave_value", "theme_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["name", 0], ["file", "model.jpg"], ["ave_value", nil], ["theme_id", 4], ["created_at", "2023-04-09 18:52:37.010527"], ["updated_at", "2023-04-09 18:52:37.010527"]]
+  [1m[36mTRANSACTION (1.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTheme Delete All (0.7ms)[0m  [1m[31mDELETE FROM "themes"[0m
+  [1m[36mTRANSACTION (0.6ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mTheme Create (0.9ms)[0m  [1m[32mINSERT INTO "themes" ("name", "qty_items", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["name", "-----"], ["qty_items", nil], ["created_at", "2023-04-09 18:52:37.031223"], ["updated_at", "2023-04-09 18:52:37.031223"]]
+  [1m[36mTRANSACTION (1.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.4ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mTheme Create (0.5ms)[0m  [1m[32mINSERT INTO "themes" ("name", "qty_items", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["name", "Какое из произведений художника О.Ренуара наилучшим образом характеризует его творчество?"], ["qty_items", nil], ["created_at", "2023-04-09 18:52:37.036134"], ["updated_at", "2023-04-09 18:52:37.036134"]]
+  [1m[36mTRANSACTION (1.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.4ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mTheme Create (0.5ms)[0m  [1m[32mINSERT INTO "themes" ("name", "qty_items", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["name", "Какое из произведений художника П.Пикассо наилучшим образом характеризует его творчество?"], ["qty_items", nil], ["created_at", "2023-04-09 18:52:37.040016"], ["updated_at", "2023-04-09 18:52:37.040016"]]
+  [1m[36mTRANSACTION (1.1ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.4ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mTheme Create (0.5ms)[0m  [1m[32mINSERT INTO "themes" ("name", "qty_items", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["name", "Какое из произведений художника А.Матисса наилучшим образом характеризует его творчество?"], ["qty_items", nil], ["created_at", "2023-04-09 18:52:37.043781"], ["updated_at", "2023-04-09 18:52:37.043781"]]
+  [1m[36mTRANSACTION (1.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mUser Delete All (3.2ms)[0m  [1m[31mDELETE FROM "users"[0m
+Started GET "/images" for 127.0.0.1 at 2023-04-09 21:53:24 +0300
+Processing by ImagesController#index as HTML
+  Rendering layout layouts/application.html.haml
+  Rendering images/index.html.haml within layouts/application
+  [1m[36mImage Load (1.5ms)[0m  [1m[34mSELECT "images".* FROM "images"[0m
+  ↳ app/views/images/index.html.haml:15
+  Rendered images/index.html.haml within layouts/application (Duration: 24.9ms | Allocations: 5036)
+  Rendered shared/_header.html.haml (Duration: 11.1ms | Allocations: 2513)
+  Rendered shared/_footer.html.haml (Duration: 6.3ms | Allocations: 11)
+  Rendered layout layouts/application.html.haml (Duration: 43.4ms | Allocations: 7745)
+Completed 200 OK in 45ms (Views: 44.1ms | ActiveRecord: 10.5ms | Allocations: 8066)
+
+
+Started GET "/images/1" for 127.0.0.1 at 2023-04-09 21:53:27 +0300
+Processing by ImagesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mImage Load (0.5ms)[0m  [1m[34mSELECT "images".* FROM "images" WHERE "images"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/images_controller.rb:63:in `set_image'
+  Rendering layout layouts/application.html.haml
+  Rendering images/show.html.haml within layouts/application
+  Rendered images/show.html.haml within layouts/application (Duration: 30.6ms | Allocations: 5446)
+  Rendered shared/_header.html.haml (Duration: 11.6ms | Allocations: 2343)
+  Rendered shared/_footer.html.haml (Duration: 0.1ms | Allocations: 11)
+  Rendered layout layouts/application.html.haml (Duration: 49.1ms | Allocations: 7985)
+Completed 200 OK in 94ms (Views: 53.1ms | ActiveRecord: 1.7ms | Allocations: 14232)
+
+
+Started GET "/images" for 127.0.0.1 at 2023-04-09 21:53:31 +0300
+Processing by ImagesController#index as HTML
+  Rendering layout layouts/application.html.haml
+  Rendering images/index.html.haml within layouts/application
+  [1m[36mImage Load (0.8ms)[0m  [1m[34mSELECT "images".* FROM "images"[0m
+  ↳ app/views/images/index.html.haml:15
+  Rendered images/index.html.haml within layouts/application (Duration: 6.4ms | Allocations: 2049)
+  Rendered shared/_header.html.haml (Duration: 2.8ms | Allocations: 2505)
+  Rendered shared/_footer.html.haml (Duration: 0.0ms | Allocations: 11)
+  Rendered layout layouts/application.html.haml (Duration: 10.2ms | Allocations: 4750)
+Completed 200 OK in 12ms (Views: 10.6ms | ActiveRecord: 0.8ms | Allocations: 5069)
+
+
+Started GET "/images/1/edit" for 127.0.0.1 at 2023-04-09 21:53:56 +0300
+Processing by ImagesController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mImage Load (0.9ms)[0m  [1m[34mSELECT "images".* FROM "images" WHERE "images"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/images_controller.rb:63:in `set_image'
+  Rendering layout layouts/application.html.haml
+  Rendering images/edit.html.haml within layouts/application
+  Rendered images/_form.html.haml (Duration: 1.4ms | Allocations: 1448)
+  Rendered images/edit.html.haml within layouts/application (Duration: 5.3ms | Allocations: 4465)
+  Rendered shared/_header.html.haml (Duration: 1.9ms | Allocations: 2328)
+  Rendered shared/_footer.html.haml (Duration: 0.0ms | Allocations: 11)
+  Rendered layout layouts/application.html.haml (Duration: 7.7ms | Allocations: 6989)
+Completed 200 OK in 12ms (Views: 8.1ms | ActiveRecord: 0.9ms | Allocations: 7818)
+
+
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT pg_try_advisory_lock(6643483464595264770)[0m
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.7ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.4ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT pg_advisory_unlock(6643483464595264770)[0m
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.7ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.6ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mImage Delete All (2.4ms)[0m  [1m[31mDELETE FROM "images"[0m
+  [1m[36mTRANSACTION (0.7ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mImage Create (0.6ms)[0m  [1m[32mINSERT INTO "images" ("name", "file", "ave_value", "theme_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["name", "big_cat"], ["file", "big_cat.jpg"], ["ave_value", nil], ["theme_id", 2], ["created_at", "2023-04-09 18:55:46.181023"], ["updated_at", "2023-04-09 18:55:46.181023"]]
+  [1m[36mTRANSACTION (1.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.4ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mImage Create (0.6ms)[0m  [1m[32mINSERT INTO "images" ("name", "file", "ave_value", "theme_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["name", "black_white"], ["file", "black_white.jpg"], ["ave_value", nil], ["theme_id", 2], ["created_at", "2023-04-09 18:55:46.185557"], ["updated_at", "2023-04-09 18:55:46.185557"]]
+  [1m[36mTRANSACTION (1.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.4ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mImage Create (0.7ms)[0m  [1m[32mINSERT INTO "images" ("name", "file", "ave_value", "theme_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["name", "cat"], ["file", "cat.jpg"], ["ave_value", nil], ["theme_id", 3], ["created_at", "2023-04-09 18:55:46.189713"], ["updated_at", "2023-04-09 18:55:46.189713"]]
+  [1m[36mTRANSACTION (1.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.5ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mImage Create (0.5ms)[0m  [1m[32mINSERT INTO "images" ("name", "file", "ave_value", "theme_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["name", "grace"], ["file", "grace.jpg"], ["ave_value", nil], ["theme_id", 4], ["created_at", "2023-04-09 18:55:46.194112"], ["updated_at", "2023-04-09 18:55:46.194112"]]
+  [1m[36mTRANSACTION (1.1ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.4ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mImage Create (0.5ms)[0m  [1m[32mINSERT INTO "images" ("name", "file", "ave_value", "theme_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["name", "HolywoodLC"], ["file", "HolywoodLC.jpg"], ["ave_value", nil], ["theme_id", 3], ["created_at", "2023-04-09 18:55:46.198438"], ["updated_at", "2023-04-09 18:55:46.198438"]]
+  [1m[36mTRANSACTION (1.1ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.5ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mImage Create (0.4ms)[0m  [1m[32mINSERT INTO "images" ("name", "file", "ave_value", "theme_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["name", "img1"], ["file", "img1.jpg"], ["ave_value", nil], ["theme_id", 4], ["created_at", "2023-04-09 18:55:46.201987"], ["updated_at", "2023-04-09 18:55:46.201987"]]
+  [1m[36mTRANSACTION (1.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.4ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mImage Create (0.5ms)[0m  [1m[32mINSERT INTO "images" ("name", "file", "ave_value", "theme_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["name", "img2"], ["file", "img2.jpg"], ["ave_value", nil], ["theme_id", 3], ["created_at", "2023-04-09 18:55:46.205862"], ["updated_at", "2023-04-09 18:55:46.205862"]]
+  [1m[36mTRANSACTION (1.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.4ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mImage Create (0.5ms)[0m  [1m[32mINSERT INTO "images" ("name", "file", "ave_value", "theme_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["name", "img3"], ["file", "img3.jpg"], ["ave_value", nil], ["theme_id", 4], ["created_at", "2023-04-09 18:55:46.209844"], ["updated_at", "2023-04-09 18:55:46.209844"]]
+  [1m[36mTRANSACTION (1.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mImage Create (0.4ms)[0m  [1m[32mINSERT INTO "images" ("name", "file", "ave_value", "theme_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["name", "img4"], ["file", "img4.jpg"], ["ave_value", nil], ["theme_id", 3], ["created_at", "2023-04-09 18:55:46.213568"], ["updated_at", "2023-04-09 18:55:46.213568"]]
+  [1m[36mTRANSACTION (1.1ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.4ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mImage Create (0.4ms)[0m  [1m[32mINSERT INTO "images" ("name", "file", "ave_value", "theme_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["name", "model"], ["file", "model.jpg"], ["ave_value", nil], ["theme_id", 4], ["created_at", "2023-04-09 18:55:46.217258"], ["updated_at", "2023-04-09 18:55:46.217258"]]
+  [1m[36mTRANSACTION (1.1ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTheme Delete All (1.2ms)[0m  [1m[31mDELETE FROM "themes"[0m
+  [1m[36mTRANSACTION (0.6ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mTheme Create (0.5ms)[0m  [1m[32mINSERT INTO "themes" ("name", "qty_items", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["name", "-----"], ["qty_items", nil], ["created_at", "2023-04-09 18:55:46.233608"], ["updated_at", "2023-04-09 18:55:46.233608"]]
+  [1m[36mTRANSACTION (1.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.4ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mTheme Create (0.5ms)[0m  [1m[32mINSERT INTO "themes" ("name", "qty_items", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["name", "Какое из произведений художника О.Ренуара наилучшим образом характеризует его творчество?"], ["qty_items", nil], ["created_at", "2023-04-09 18:55:46.238015"], ["updated_at", "2023-04-09 18:55:46.238015"]]
+  [1m[36mTRANSACTION (1.1ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mTheme Create (0.4ms)[0m  [1m[32mINSERT INTO "themes" ("name", "qty_items", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["name", "Какое из произведений художника П.Пикассо наилучшим образом характеризует его творчество?"], ["qty_items", nil], ["created_at", "2023-04-09 18:55:46.241707"], ["updated_at", "2023-04-09 18:55:46.241707"]]
+  [1m[36mTRANSACTION (1.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mTheme Create (0.4ms)[0m  [1m[32mINSERT INTO "themes" ("name", "qty_items", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["name", "Какое из произведений художника А.Матисса наилучшим образом характеризует его творчество?"], ["qty_items", nil], ["created_at", "2023-04-09 18:55:46.245445"], ["updated_at", "2023-04-09 18:55:46.245445"]]
+  [1m[36mTRANSACTION (1.1ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mUser Delete All (0.5ms)[0m  [1m[31mDELETE FROM "users"[0m
+Started GET "/images" for 127.0.0.1 at 2023-04-09 21:55:56 +0300
+  [1m[36mActiveRecord::SchemaMigration Pluck (1.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by ImagesController#index as HTML
+  Rendering layout layouts/application.html.haml
+  Rendering images/index.html.haml within layouts/application
+  [1m[36mImage Load (1.2ms)[0m  [1m[34mSELECT "images".* FROM "images"[0m
+  ↳ app/views/images/index.html.haml:15
+  Rendered images/index.html.haml within layouts/application (Duration: 15.4ms | Allocations: 4322)
+  Rendered shared/_header.html.haml (Duration: 2.9ms | Allocations: 2577)
+  Rendered shared/_footer.html.haml (Duration: 0.3ms | Allocations: 13)
+  Rendered layout layouts/application.html.haml (Duration: 20.5ms | Allocations: 7100)
+Completed 200 OK in 25ms (Views: 14.9ms | ActiveRecord: 7.9ms | Allocations: 8560)
+
+
+Started GET "/images/1" for 127.0.0.1 at 2023-04-09 21:56:00 +0300
+Processing by ImagesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mImage Load (1.7ms)[0m  [1m[34mSELECT "images".* FROM "images" WHERE "images"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/images_controller.rb:63:in `set_image'
+  [1m[36mImage Load (0.6ms)[0m  [1m[34mSELECT "images".* FROM "images" WHERE "images"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/images_controller.rb:63:in `set_image'
+  Rendering layout layouts/application.html.haml
+  Rendering images/show.html.haml within layouts/application
+  Rendered images/show.html.haml within layouts/application (Duration: 0.9ms | Allocations: 252)
+  Rendered shared/_header.html.haml (Duration: 2.5ms | Allocations: 2343)
+  Rendered shared/_footer.html.haml (Duration: 0.0ms | Allocations: 11)
+  Rendered layout layouts/application.html.haml (Duration: 4.0ms | Allocations: 2791)
+Completed 200 OK in 15ms (Views: 4.5ms | ActiveRecord: 2.3ms | Allocations: 5360)
+
+
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.7ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mImage Delete All (1.5ms)[0m  [1m[31mDELETE FROM "images"[0m
+  [1m[36mTRANSACTION (0.5ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mImage Create (0.6ms)[0m  [1m[32mINSERT INTO "images" ("name", "file", "ave_value", "theme_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["name", "big_cat"], ["file", "big_cat.jpg"], ["ave_value", nil], ["theme_id", 2], ["created_at", "2023-04-09 19:18:49.463350"], ["updated_at", "2023-04-09 19:18:49.463350"]]
+  [1m[36mTRANSACTION (1.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.4ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mImage Create (0.5ms)[0m  [1m[32mINSERT INTO "images" ("name", "file", "ave_value", "theme_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["name", "black_white"], ["file", "black_white.jpg"], ["ave_value", nil], ["theme_id", 2], ["created_at", "2023-04-09 19:18:49.468017"], ["updated_at", "2023-04-09 19:18:49.468017"]]
+  [1m[36mTRANSACTION (1.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mImage Create (0.6ms)[0m  [1m[32mINSERT INTO "images" ("name", "file", "ave_value", "theme_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["name", "cat"], ["file", "cat.jpg"], ["ave_value", nil], ["theme_id", 3], ["created_at", "2023-04-09 19:18:49.471775"], ["updated_at", "2023-04-09 19:18:49.471775"]]
+  [1m[36mTRANSACTION (1.1ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.5ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mImage Create (0.5ms)[0m  [1m[32mINSERT INTO "images" ("name", "file", "ave_value", "theme_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["name", "grace"], ["file", "grace.jpg"], ["ave_value", nil], ["theme_id", 4], ["created_at", "2023-04-09 19:18:49.475325"], ["updated_at", "2023-04-09 19:18:49.475325"]]
+  [1m[36mTRANSACTION (1.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mImage Create (0.4ms)[0m  [1m[32mINSERT INTO "images" ("name", "file", "ave_value", "theme_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["name", "HolywoodLC"], ["file", "HolywoodLC.jpg"], ["ave_value", nil], ["theme_id", 3], ["created_at", "2023-04-09 19:18:49.478967"], ["updated_at", "2023-04-09 19:18:49.478967"]]
+  [1m[36mTRANSACTION (1.1ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mImage Create (0.4ms)[0m  [1m[32mINSERT INTO "images" ("name", "file", "ave_value", "theme_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["name", "img1"], ["file", "img1.jpg"], ["ave_value", nil], ["theme_id", 4], ["created_at", "2023-04-09 19:18:49.482372"], ["updated_at", "2023-04-09 19:18:49.482372"]]
+  [1m[36mTRANSACTION (1.1ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.4ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mImage Create (0.4ms)[0m  [1m[32mINSERT INTO "images" ("name", "file", "ave_value", "theme_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["name", "img2"], ["file", "img2.jpg"], ["ave_value", nil], ["theme_id", 3], ["created_at", "2023-04-09 19:18:49.485959"], ["updated_at", "2023-04-09 19:18:49.485959"]]
+  [1m[36mTRANSACTION (1.1ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.4ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mImage Create (0.8ms)[0m  [1m[32mINSERT INTO "images" ("name", "file", "ave_value", "theme_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["name", "img3"], ["file", "img3.jpg"], ["ave_value", nil], ["theme_id", 4], ["created_at", "2023-04-09 19:18:49.489446"], ["updated_at", "2023-04-09 19:18:49.489446"]]
+  [1m[36mTRANSACTION (1.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mImage Create (0.5ms)[0m  [1m[32mINSERT INTO "images" ("name", "file", "ave_value", "theme_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["name", "img4"], ["file", "img4.jpg"], ["ave_value", nil], ["theme_id", 3], ["created_at", "2023-04-09 19:18:49.493830"], ["updated_at", "2023-04-09 19:18:49.493830"]]
+  [1m[36mTRANSACTION (1.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.4ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mImage Create (0.5ms)[0m  [1m[32mINSERT INTO "images" ("name", "file", "ave_value", "theme_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["name", "model"], ["file", "model.jpg"], ["ave_value", nil], ["theme_id", 4], ["created_at", "2023-04-09 19:18:49.497680"], ["updated_at", "2023-04-09 19:18:49.497680"]]
+  [1m[36mTRANSACTION (1.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTheme Delete All (1.4ms)[0m  [1m[31mDELETE FROM "themes"[0m
+  [1m[36mTRANSACTION (0.5ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mTheme Create (0.7ms)[0m  [1m[32mINSERT INTO "themes" ("name", "qty_items", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["name", "-----"], ["qty_items", nil], ["created_at", "2023-04-09 19:18:49.513979"], ["updated_at", "2023-04-09 19:18:49.513979"]]
+  [1m[36mTRANSACTION (1.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.4ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mTheme Create (0.5ms)[0m  [1m[32mINSERT INTO "themes" ("name", "qty_items", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["name", "Какое из произведений художника О.Ренуара наилучшим образом характеризует его творчество?"], ["qty_items", nil], ["created_at", "2023-04-09 19:18:49.518729"], ["updated_at", "2023-04-09 19:18:49.518729"]]
+  [1m[36mTRANSACTION (1.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.4ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mTheme Create (0.7ms)[0m  [1m[32mINSERT INTO "themes" ("name", "qty_items", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["name", "Какое из произведений художника П.Пикассо наилучшим образом характеризует его творчество?"], ["qty_items", nil], ["created_at", "2023-04-09 19:18:49.522571"], ["updated_at", "2023-04-09 19:18:49.522571"]]
+  [1m[36mTRANSACTION (1.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.4ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mTheme Create (0.5ms)[0m  [1m[32mINSERT INTO "themes" ("name", "qty_items", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["name", "Какое из произведений художника А.Матисса наилучшим образом характеризует его творчество?"], ["qty_items", nil], ["created_at", "2023-04-09 19:18:49.526668"], ["updated_at", "2023-04-09 19:18:49.526668"]]
+  [1m[36mTRANSACTION (1.1ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mUser Load (0.9ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 4], ["LIMIT", 1]]
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT "users".* FROM "users" ORDER BY "users"."id" ASC LIMIT $1[0m  [["LIMIT", 1]]
+  [1m[36mValue Load (0.6ms)[0m  [1m[34mSELECT "values".* FROM "values" WHERE "values"."user_id" = $1[0m  [["user_id", 4]]
+  [1m[36mValue Count (1.4ms)[0m  [1m[34mSELECT COUNT(*) FROM "values" WHERE "values"."user_id" = $1[0m  [["user_id", 4]]
+  [1m[36mValue Load (0.6ms)[0m  [1m[34mSELECT "values".* FROM "values" WHERE "values"."user_id" = $1 AND "values"."image_id" = $2[0m  [["user_id", 4], ["image_id", 4]]
+  [1m[36mTheme Load (0.6ms)[0m  [1m[34mSELECT "themes".* FROM "themes" ORDER BY "themes"."id" ASC LIMIT $1 OFFSET $2[0m  [["LIMIT", 1], ["OFFSET", 1]]
+  [1m[36mImage Load (0.5ms)[0m  [1m[34mSELECT "images".* FROM "images" WHERE "images"."theme_id" = $1[0m  [["theme_id", 2]]
+  [1m[36mImage Count (0.9ms)[0m  [1m[34mSELECT COUNT(*) FROM "images" WHERE "images"."theme_id" = $1[0m  [["theme_id", 2]]
